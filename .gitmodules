@@ -1,0 +1,3 @@
+[submodule "flight_controller/libraries/sparkfun_eagle_libraries"]
+	path = flight_controller/libraries/sparkfun_eagle_libraries
+	url = git@github.com:sparkfun/SparkFun-Eagle-Libraries.git
