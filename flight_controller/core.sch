@@ -5337,8 +5337,12 @@ We implement the parallel interface.</text>
 </segment>
 <segment>
 <wire x1="208.28" y1="215.9" x2="208.28" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="205.74" x2="208.28" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="205.74" x2="208.28" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="LED14" gate="G$1" pin="C"/>
+<wire x1="208.28" y1="195.58" x2="208.28" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="185.42" x2="208.28" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="175.26" x2="208.28" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="165.1" x2="208.28" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="215.9" x2="208.28" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="LED15" gate="G$1" pin="C"/>
 <wire x1="205.74" y1="205.74" x2="208.28" y2="205.74" width="0.1524" layer="91"/>
@@ -5352,6 +5356,18 @@ We implement the parallel interface.</text>
 <wire x1="208.28" y1="226.06" x2="208.28" y2="215.9" width="0.1524" layer="91"/>
 <junction x="208.28" y="215.9"/>
 <pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="LED18" gate="G$1" pin="C"/>
+<wire x1="205.74" y1="175.26" x2="208.28" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="LED19" gate="G$1" pin="C"/>
+<wire x1="205.74" y1="165.1" x2="208.28" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="LED20" gate="G$1" pin="C"/>
+<wire x1="205.74" y1="195.58" x2="208.28" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="LED21" gate="G$1" pin="C"/>
+<wire x1="205.74" y1="185.42" x2="208.28" y2="185.42" width="0.1524" layer="91"/>
+<junction x="208.28" y="195.58"/>
+<junction x="208.28" y="185.42"/>
+<junction x="208.28" y="175.26"/>
+<junction x="208.28" y="165.1"/>
 </segment>
 <segment>
 <wire x1="256.54" y1="215.9" x2="256.54" y2="205.74" width="0.1524" layer="91"/>
@@ -5406,6 +5422,7 @@ We implement the parallel interface.</text>
 <wire x1="132.08" y1="99.06" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="96.52" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
 <junction x="152.4" y="96.52"/>
+<junction x="142.24" y="96.52"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
@@ -6630,18 +6647,6 @@ We implement the parallel interface.</text>
 <wire x1="269.24" y1="-513.08" x2="269.24" y2="-510.54" width="0.1524" layer="91"/>
 <label x="276.86" y="-513.08" size="1.778" layer="95"/>
 <junction x="289.56" y="-513.08"/>
-</segment>
-</net>
-<net name="GND1" class="0">
-<segment>
-<pinref part="LED18" gate="G$1" pin="C"/>
-<wire x1="205.74" y1="175.26" x2="208.28" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="LED19" gate="G$1" pin="C"/>
-<wire x1="205.74" y1="165.1" x2="208.28" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="LED20" gate="G$1" pin="C"/>
-<wire x1="205.74" y1="195.58" x2="208.28" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="LED21" gate="G$1" pin="C"/>
-<wire x1="205.74" y1="185.42" x2="208.28" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
