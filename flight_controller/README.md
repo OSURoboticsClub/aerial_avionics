@@ -15,7 +15,7 @@ additions will include the following:
   * High-speed USB
   * More TIM channels and UART buses
   * External SPI and I2C buses
-  * Molex MicroLatch 2mm connectors (more compact than sherlock)
+  * Molex MicroLatch 2mm connectors in place of bulkier sherlock
 
 v3.4
 ----
