@@ -4773,7 +4773,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U3" library="SparkFun-Connectors" deviceset="USD-SOCKET" device="NEW"/>
 <part name="U4" library="aerial" deviceset="STM32F405" device=""/>
-<part name="R8" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1K"/>
+<part name="R8" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="20K"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF-25V-5%(0603)" device="" value="0.1uF"/>
 <part name="U5" library="SparkFun-PowerIC" deviceset="V_REG_MIC5219" device="3.3V" value="MIC5219 3.3V"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1nF"/>
@@ -5683,14 +5683,14 @@ We implement the parallel interface.</text>
 <pinref part="SUPPLY12" gate="G$1" pin="5V"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="ADC1-IN" class="0">
 <segment>
 <wire x1="175.26" y1="-419.1" x2="193.04" y2="-419.1" width="0.1524" layer="91"/>
 <pinref part="J13" gate="G$1" pin="1"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="ADC2-IN" class="0">
 <segment>
 <wire x1="175.26" y1="-434.34" x2="193.04" y2="-434.34" width="0.1524" layer="91"/>
 <pinref part="J14" gate="G$1" pin="1"/>
@@ -5795,6 +5795,24 @@ We implement the parallel interface.</text>
 <wire x1="236.22" y1="-513.08" x2="238.76" y2="-513.08" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="-513.08" x2="238.76" y2="-505.46" width="0.1524" layer="91"/>
 <junction x="238.76" y="-505.46"/>
+</segment>
+<segment>
+<pinref part="U4" gate=".POWER" pin="VDD@32"/>
+<wire x1="45.72" y1="-157.48" x2="25.4" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-157.48" x2="25.4" y2="-167.64" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U4" gate=".POWER" pin="VDD@48"/>
+<wire x1="45.72" y1="-160.02" x2="33.02" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-160.02" x2="33.02" y2="-167.64" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U4" gate=".POWER" pin="VDD@64"/>
+<wire x1="45.72" y1="-162.56" x2="40.64" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-162.56" x2="40.64" y2="-167.64" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="KILL" class="0">
@@ -6409,31 +6427,7 @@ We implement the parallel interface.</text>
 <pinref part="U3" gate="G$1" pin="RSV"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U4" gate=".POWER" pin="VDD@64"/>
-<wire x1="45.72" y1="-162.56" x2="40.64" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-162.56" x2="40.64" y2="-167.64" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="U4" gate=".POWER" pin="VDD@48"/>
-<wire x1="45.72" y1="-160.02" x2="33.02" y2="-160.02" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="-160.02" x2="33.02" y2="-167.64" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="U4" gate=".POWER" pin="VDD@32"/>
-<wire x1="45.72" y1="-157.48" x2="25.4" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="-157.48" x2="25.4" y2="-167.64" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$8" class="0">
+<net name="F4-VCAP-1" class="0">
 <segment>
 <pinref part="U4" gate=".POWER" pin="VCAP_2"/>
 <wire x1="76.2" y1="-160.02" x2="81.28" y2="-160.02" width="0.1524" layer="91"/>
@@ -6441,7 +6435,7 @@ We implement the parallel interface.</text>
 <pinref part="C10" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="F4-VCAP-2" class="0">
 <segment>
 <pinref part="U4" gate=".POWER" pin="VCAP_1"/>
 <wire x1="76.2" y1="-157.48" x2="88.9" y2="-157.48" width="0.1524" layer="91"/>
@@ -6449,7 +6443,7 @@ We implement the parallel interface.</text>
 <pinref part="C13" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="MIC-BP" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="BP"/>
 <pinref part="C2" gate="G$1" pin="1"/>
