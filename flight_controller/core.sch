@@ -5140,7 +5140,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C15" library="SparkFun-Capacitors" deviceset="18PF-50V-5%(0603)" device="" value="18pF"/>
 <part name="C16" library="SparkFun-Capacitors" deviceset="18PF-50V-5%(0603)" device="" value="18pF"/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$1" library="SparkFun-RF" deviceset="XBEE-1" device="B3"/>
+<part name="XBEE" library="SparkFun-RF" deviceset="XBEE-1" device="B3"/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="J18" library="aerial" deviceset="MOLEX-4POS" device=""/>
@@ -5382,7 +5382,7 @@ We implement the parallel interface.</text>
 <instance part="C15" gate="G$1" x="111.76" y="195.58" rot="R90"/>
 <instance part="C16" gate="G$1" x="111.76" y="185.42" rot="R90"/>
 <instance part="GND26" gate="1" x="116.84" y="180.34"/>
-<instance part="U$1" gate="G$1" x="58.42" y="111.76"/>
+<instance part="XBEE" gate="G$1" x="58.42" y="111.76"/>
 <instance part="GND27" gate="1" x="35.56" y="91.44"/>
 <instance part="SUPPLY11" gate="G$1" x="35.56" y="127"/>
 <instance part="J18" gate="G$1" x="83.82" y="-533.4"/>
@@ -5770,7 +5770,7 @@ We implement the parallel interface.</text>
 <junction x="116.84" y="185.42"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="XBEE" gate="G$1" pin="GND"/>
 <wire x1="38.1" y1="99.06" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="99.06" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND27" gate="1" pin="GND"/>
@@ -5865,7 +5865,7 @@ We implement the parallel interface.</text>
 <pinref part="U4" gate=".GPIO" pin="NRST"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="RESET"/>
+<pinref part="XBEE" gate="G$1" pin="RESET"/>
 <wire x1="38.1" y1="111.76" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
 <label x="15.24" y="111.76" size="1.778" layer="95"/>
 </segment>
@@ -6040,7 +6040,7 @@ We implement the parallel interface.</text>
 <pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
+<pinref part="XBEE" gate="G$1" pin="VDD"/>
 <wire x1="38.1" y1="121.92" x2="35.56" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="121.92" x2="35.56" y2="127" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
@@ -6064,7 +6064,7 @@ We implement the parallel interface.</text>
 <segment>
 <wire x1="83.82" y1="121.92" x2="78.74" y2="121.92" width="0.1524" layer="91"/>
 <label x="81.28" y="121.92" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="DIO0"/>
+<pinref part="XBEE" gate="G$1" pin="DIO0"/>
 </segment>
 </net>
 <net name="RSSI" class="0">
@@ -6074,7 +6074,7 @@ We implement the parallel interface.</text>
 <label x="238.76" y="215.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="RSSI"/>
+<pinref part="XBEE" gate="G$1" pin="RSSI"/>
 <wire x1="38.1" y1="109.22" x2="15.24" y2="109.22" width="0.1524" layer="91"/>
 <label x="15.24" y="109.22" size="1.778" layer="95"/>
 </segment>
@@ -7074,7 +7074,7 @@ We implement the parallel interface.</text>
 <pinref part="U4" gate=".GPIO" pin="PA2"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="DIN"/>
+<pinref part="XBEE" gate="G$1" pin="DIN"/>
 <wire x1="38.1" y1="116.84" x2="15.24" y2="116.84" width="0.1524" layer="91"/>
 <label x="15.24" y="116.84" size="1.778" layer="95"/>
 </segment>
@@ -7096,7 +7096,7 @@ We implement the parallel interface.</text>
 <pinref part="U4" gate=".GPIO" pin="PA3"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="DOUT"/>
+<pinref part="XBEE" gate="G$1" pin="DOUT"/>
 <wire x1="38.1" y1="119.38" x2="15.24" y2="119.38" width="0.1524" layer="91"/>
 <label x="15.24" y="119.38" size="1.778" layer="95"/>
 </segment>
