@@ -17,6 +17,9 @@ additions will include the following:
   * External SPI and I2C buses
   * Molex MicroLatch 2mm connectors in place of bulkier sherlock
 
+This will be a development version with many debug pads and a rather open
+layout for easier troubleshooting.
+
 v3.4
 ----
 2014 competition year. Separated IMU to daughter board to resolve board flex
