@@ -1936,12 +1936,10 @@ design rules under a new name.</description>
 <contactref element="S1" pad="1"/>
 <contactref element="R8" pad="1"/>
 <contactref element="J20" pad="1"/>
-<contactref element="XBEE" pad="5"/>
 <contactref element="U4" pad="7"/>
 <wire x1="-11.4" y1="-155.2" x2="-14.15" y2="-182.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.794" y1="-359.895" x2="-14.15" y2="-182.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-183" y1="-382.5" x2="-42.794" y2="-359.895" width="0" layer="19" extent="1-1"/>
-<wire x1="-215.1" y1="-489.9" x2="-183" y2="-382.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PA12">
 <contactref element="U4" pad="45"/>

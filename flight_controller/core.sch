@@ -5176,7 +5176,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="15.24" y="177.8" size="1.778" layer="98">AF I2C1</text>
 <text x="15.24" y="172.72" size="1.778" layer="98">AF UART3</text>
 <text x="104.14" y="236.22" size="1.778" layer="98">AF ADC</text>
-<text x="213.36" y="-429.26" size="1.778" layer="98">TODO(yoos): Why is RST on XBee reset?</text>
 <text x="266.7" y="-464.82" size="7.62" layer="91">uSD</text>
 <text x="0" y="-375.92" size="12.7" layer="91">CONNECTORS/BUSES</text>
 <frame x1="0" y1="-660.4" x2="431.8" y2="-381" columns="8" rows="5" layer="91"/>
@@ -5863,11 +5862,6 @@ We implement the parallel interface.</text>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="165.1" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U4" gate=".GPIO" pin="NRST"/>
-</segment>
-<segment>
-<pinref part="XBEE" gate="G$1" pin="RESET"/>
-<wire x1="38.1" y1="111.76" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
-<label x="15.24" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA12" class="0">
