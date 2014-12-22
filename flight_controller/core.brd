@@ -189,76 +189,6 @@ PA10</text>
 <libraries>
 <library name="aerial">
 <packages>
-<package name="LQFP-64-STM32F405">
-<wire x1="0" y1="12" x2="0" y2="12.7" width="0.127" layer="21"/>
-<wire x1="0" y1="12" x2="0.5" y2="12.5" width="0.127" layer="21"/>
-<wire x1="0" y1="12.7" x2="1.27" y2="12.7" width="0.127" layer="21"/>
-<smd name="16" x="0.4" y="2.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="15" x="0.4" y="3.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="14" x="0.4" y="3.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="13" x="0.4" y="4.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="12" x="0.4" y="4.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="11" x="0.4" y="5.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="10" x="0.4" y="5.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="9" x="0.4" y="6.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="8" x="0.4" y="6.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="7" x="0.4" y="7.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="6" x="0.4" y="7.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="5" x="0.4" y="8.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="3" x="0.4" y="9.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="4" x="0.4" y="8.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="2" x="0.4" y="9.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="33" x="12.3" y="2.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="34" x="12.3" y="3.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="35" x="12.3" y="3.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="36" x="12.3" y="4.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="37" x="12.3" y="4.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="38" x="12.3" y="5.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="39" x="12.3" y="5.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="40" x="12.3" y="6.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="41" x="12.3" y="6.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="42" x="12.3" y="7.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="43" x="12.3" y="7.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="44" x="12.3" y="8.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="45" x="12.3" y="8.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="46" x="12.3" y="9.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="47" x="12.3" y="9.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="17" x="2.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="32" x="10.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="18" x="3.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="19" x="3.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="20" x="4.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="21" x="4.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="22" x="5.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="23" x="5.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="24" x="6.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="25" x="6.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="26" x="7.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="27" x="7.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="28" x="8.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="29" x="8.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="30" x="9.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="31" x="9.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="1" x="0.4" y="10.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="48" x="12.3" y="10.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="64" x="2.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="63" x="3.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="62" x="3.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="61" x="4.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="60" x="4.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="57" x="6.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="59" x="5.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="58" x="5.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="55" x="7.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="56" x="6.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="54" x="7.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="53" x="8.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="52" x="8.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="51" x="9.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="50" x="9.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="49" x="10.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<text x="-2.54" y="13.97" size="1.27" layer="25">&gt;name</text>
-</package>
 <package name="MOLEX-2MM-MICROLATCH-2POS-RA">
 <pad name="1" x="0" y="0" drill="0.8"/>
 <pad name="2" x="2" y="0" drill="0.8"/>
@@ -288,21 +218,6 @@ PA10</text>
 <wire x1="8" y1="-1.6" x2="8" y2="5.7" width="0.127" layer="21"/>
 <wire x1="-2" y1="-1.6" x2="8" y2="-1.6" width="0.127" layer="21"/>
 <wire x1="-2" y1="5.7" x2="8" y2="5.7" width="0.127" layer="21"/>
-</package>
-<package name="MEAS-MS5611">
-<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21"/>
-<smd name="1" x="-1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
-<smd name="2" x="-1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
-<smd name="3" x="-1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
-<smd name="4" x="-1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
-<smd name="5" x="1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
-<smd name="6" x="1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
-<smd name="7" x="1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
-<smd name="8" x="1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
-<text x="-1.5" y="3" size="1.27" layer="25">&gt;name</text>
 </package>
 <package name="PLCC-6">
 <wire x1="-1.5" y1="-1.65" x2="1.5" y2="-1.65" width="0.127" layer="21"/>
@@ -1376,6 +1291,150 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="OSURC_Sensors">
+<packages>
+<package name="MEAS-MS5611">
+<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21"/>
+<smd name="1" x="-1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
+<smd name="2" x="-1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
+<smd name="3" x="-1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
+<smd name="4" x="-1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
+<smd name="5" x="1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
+<smd name="6" x="1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
+<smd name="7" x="1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
+<smd name="8" x="1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
+<text x="-1.5" y="3" size="1.27" layer="25">&gt;name</text>
+</package>
+</packages>
+</library>
+<library name="OSURC_DigitalIC">
+<packages>
+<package name="LQFP-64-STM32F405">
+<wire x1="0" y1="12" x2="0" y2="12.7" width="0.127" layer="21"/>
+<wire x1="0" y1="12" x2="0.5" y2="12.5" width="0.127" layer="21"/>
+<wire x1="0" y1="12.7" x2="1.27" y2="12.7" width="0.127" layer="21"/>
+<smd name="16" x="0.4" y="2.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="15" x="0.4" y="3.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="14" x="0.4" y="3.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="13" x="0.4" y="4.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="12" x="0.4" y="4.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="11" x="0.4" y="5.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="10" x="0.4" y="5.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="9" x="0.4" y="6.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="8" x="0.4" y="6.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="7" x="0.4" y="7.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="6" x="0.4" y="7.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="5" x="0.4" y="8.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="3" x="0.4" y="9.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="4" x="0.4" y="8.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="2" x="0.4" y="9.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="33" x="12.3" y="2.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="34" x="12.3" y="3.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="35" x="12.3" y="3.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="36" x="12.3" y="4.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="37" x="12.3" y="4.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="38" x="12.3" y="5.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="39" x="12.3" y="5.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="40" x="12.3" y="6.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="41" x="12.3" y="6.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="42" x="12.3" y="7.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="43" x="12.3" y="7.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="44" x="12.3" y="8.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="45" x="12.3" y="8.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="46" x="12.3" y="9.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="47" x="12.3" y="9.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="17" x="2.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="32" x="10.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="18" x="3.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="19" x="3.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="20" x="4.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="21" x="4.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="22" x="5.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="23" x="5.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="24" x="6.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="25" x="6.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="26" x="7.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="27" x="7.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="28" x="8.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="29" x="8.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="30" x="9.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="31" x="9.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="1" x="0.4" y="10.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="48" x="12.3" y="10.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="64" x="2.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="63" x="3.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="62" x="3.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="61" x="4.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="60" x="4.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="57" x="6.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="59" x="5.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="58" x="5.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="55" x="7.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="56" x="6.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="54" x="7.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="53" x="8.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="52" x="8.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="51" x="9.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="50" x="9.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="49" x="10.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<text x="-2.54" y="13.97" size="1.27" layer="25">&gt;name</text>
+</package>
+</packages>
+</library>
+<library name="OSURC_LED">
+<packages>
+<package name="PLCC-6">
+<wire x1="-1.5" y1="-1.65" x2="1.5" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.65" x2="1.5" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.65" x2="-1.5" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.65" x2="1.5" y2="1.65" width="0.127" layer="21"/>
+<text x="-1.5" y="2.2" size="1.27" layer="21">&gt;name</text>
+<smd name="C1" x="-1.75" y="1.1" dx="1.8" dy="0.7" layer="1"/>
+<smd name="C2" x="-1.75" y="0" dx="1.8" dy="0.7" layer="1"/>
+<smd name="C3" x="-1.75" y="-1.1" dx="1.8" dy="0.7" layer="1"/>
+<smd name="A1" x="1.75" y="1.1" dx="1.8" dy="0.7" layer="1"/>
+<smd name="A2" x="1.75" y="0" dx="1.8" dy="0.7" layer="1"/>
+<smd name="A3" x="1.75" y="-1.1" dx="1.8" dy="0.7" layer="1"/>
+</package>
+</packages>
+</library>
+<library name="OSURC_Connectors">
+<packages>
+<package name="MOLEX-2MM-MICROLATCH-2POS-RA">
+<pad name="1" x="0" y="0" drill="0.8"/>
+<pad name="2" x="2" y="0" drill="0.8"/>
+<text x="-2" y="-2.1" size="1.27" layer="25" align="top-left">&gt;name</text>
+<wire x1="-2" y1="-1.6" x2="-2" y2="5.7" width="0.127" layer="21"/>
+<wire x1="4" y1="-1.6" x2="4" y2="5.7" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.6" x2="4" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2" y1="5.7" x2="4" y2="5.7" width="0.127" layer="21"/>
+</package>
+<package name="MOLEX-2MM-MICROLATCH-3POS-RA">
+<pad name="1" x="0" y="0" drill="0.8"/>
+<pad name="2" x="2" y="0" drill="0.8"/>
+<pad name="3" x="4" y="0" drill="0.8"/>
+<text x="-2" y="-2.1" size="1.27" layer="25" align="top-left">&gt;name</text>
+<wire x1="-2" y1="-1.6" x2="-2" y2="5.7" width="0.127" layer="21"/>
+<wire x1="6" y1="-1.6" x2="6" y2="5.7" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.6" x2="6" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2" y1="5.7" x2="6" y2="5.7" width="0.127" layer="21"/>
+</package>
+<package name="MOLEX-2MM-MICROLATCH-4POS-RA">
+<pad name="1" x="0" y="0" drill="0.8"/>
+<pad name="2" x="2" y="0" drill="0.8"/>
+<pad name="3" x="4" y="0" drill="0.8"/>
+<pad name="4" x="6" y="0" drill="0.8"/>
+<text x="-2" y="-2.1" size="1.27" layer="25" align="top-left">&gt;name</text>
+<wire x1="-2" y1="-1.6" x2="-2" y2="5.7" width="0.127" layer="21"/>
+<wire x1="8" y1="-1.6" x2="8" y2="5.7" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.6" x2="8" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2" y1="5.7" x2="8" y2="5.7" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1543,7 +1602,7 @@ design rules under a new name.</description>
 <element name="U3" library="SparkFun-Connectors" package="MICRO-SD-SOCKET-PP" value="USD-SOCKETNEW" x="-0.5" y="-145.6">
 <attribute name="PROD_ID" value="CONN-07820" x="-0.5" y="-145.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U4" library="aerial" package="LQFP-64-STM32F405" value="STM32F405" x="-11.8" y="-162.3"/>
+<element name="U4" library="OSURC_DigitalIC" package="LQFP-64-STM32F405" value="STM32F405" x="-11.8" y="-162.3"/>
 <element name="R8" library="SparkFun" package="0603-RES" value="20K" x="-13.3" y="-182.7"/>
 <element name="C8" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-20.4" y="-191.9">
 <attribute name="PROD_ID" value="CAP-08604" x="-20.4" y="-191.9" size="1.778" layer="27" display="off"/>
@@ -1614,7 +1673,7 @@ design rules under a new name.</description>
 <element name="S1" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-SMD" value="SWITCH-MOMENTARY-2SMD" x="-40" y="-361.8">
 <attribute name="PROD_ID" value="SWCH-08247" x="-40" y="-361.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="aerial" package="MOLEX-2MM-MICROLATCH-2POS-RA" value="MOLEX-2POS" x="-48" y="-372.6"/>
+<element name="J1" library="OSURC_Connectors" package="MOLEX-2MM-MICROLATCH-2POS-RA" value="MOLEX-2POS" x="-48" y="-372.6"/>
 <element name="J2" library="aerial" package="MOLEX-2MM-MICROLATCH-2POS-RA" value="MOLEX-2POS" x="-54.8" y="-372.6"/>
 <element name="J3" library="aerial" package="MOLEX-2MM-MICROLATCH-2POS-RA" value="MOLEX-2POS" x="-61.6" y="-372.6"/>
 <element name="J4" library="aerial" package="MOLEX-2MM-MICROLATCH-2POS-RA" value="MOLEX-2POS" x="-68.4" y="-372.6"/>
@@ -1626,7 +1685,7 @@ design rules under a new name.</description>
 <element name="J13" library="aerial" package="MOLEX-2MM-MICROLATCH-3POS-RA" value="MOLEX-3POS" x="-131.4" y="-372.6"/>
 <element name="J14" library="aerial" package="MOLEX-2MM-MICROLATCH-3POS-RA" value="MOLEX-3POS" x="-140" y="-372.6"/>
 <element name="J16" library="aerial" package="MOLEX-2MM-MICROLATCH-3POS-RA" value="MOLEX-3POS" x="-157.2" y="-372.6"/>
-<element name="J17" library="aerial" package="MOLEX-2MM-MICROLATCH-3POS-RA" value="MOLEX-3POS" x="-165.8" y="-372.6"/>
+<element name="J17" library="OSURC_Connectors" package="MOLEX-2MM-MICROLATCH-3POS-RA" value="MOLEX-3POS" x="-165.8" y="-372.6"/>
 <element name="J19" library="aerial" package="MOLEX-2MM-MICROLATCH-3POS-RA" value="MOLEX-3POS" x="-183" y="-372.6"/>
 <element name="J20" library="aerial" package="MOLEX-2MM-MICROLATCH-4POS-RA" value="MOLEX-4POS" x="-183" y="-382.5"/>
 <element name="J15" library="aerial" package="MOLEX-2MM-MICROLATCH-4POS-RA" value="MOLEX-4POS" x="-183" y="-392.3"/>
@@ -1669,7 +1728,7 @@ design rules under a new name.</description>
 <element name="C13" library="SparkFun-Capacitors" package="0603-CAP" value="2.2uF" x="-183.9" y="-463.4">
 <attribute name="PROD_ID" value="CAP-07888" x="-183.9" y="-463.4" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U2" library="aerial" package="MEAS-MS5611" value="MEAS-MS5611" x="-187.3" y="-462.4"/>
+<element name="U2" library="OSURC_Sensors" package="MEAS-MS5611" value="MEAS-MS5611" x="-187.3" y="-462.4"/>
 <element name="C14" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-187.5" y="-466.4">
 <attribute name="PROD_ID" value="CAP-08604" x="-187.5" y="-466.4" size="1.778" layer="27" display="off"/>
 </element>
@@ -1693,14 +1752,14 @@ design rules under a new name.</description>
 <element name="XBEE" library="SparkFun-RF" package="XBEE-SMD" value="XBEE-1B3" x="-202.6" y="-501.9">
 <attribute name="PROD_ID" value="CONN-09042" x="-202.6" y="-501.9" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J18" library="aerial" package="MOLEX-2MM-MICROLATCH-4POS-RA" value="MOLEX-4POS" x="-213.5" y="-514.2"/>
+<element name="J18" library="OSURC_Connectors" package="MOLEX-2MM-MICROLATCH-4POS-RA" value="MOLEX-4POS" x="-213.5" y="-514.2"/>
 <element name="R3" library="SparkFun-Passives" package="0603-RES" value="680" x="-211.6" y="-522.6"/>
 <element name="R4" library="SparkFun-Passives" package="0603-RES" value="680" x="-214.5" y="-525.7"/>
 <element name="R7" library="SparkFun-Passives" package="0603-RES" value="680" x="-211.4" y="-525.7"/>
 <element name="LED5" library="SparkFun-LED" package="LED-0603" value="ORANGE" x="-214.8" y="-519.7"/>
 <element name="LED6" library="SparkFun-LED" package="LED-0603" value="ORANGE" x="-211.9" y="-519.7"/>
 <element name="LED7" library="SparkFun-LED" package="LED-0603" value="ORANGE" x="-214.8" y="-522.8"/>
-<element name="LED14" library="aerial" package="PLCC-6" value="OSRAM-MULTILED-RGB" x="-213.3" y="-531.3"/>
+<element name="LED14" library="OSURC_LED" package="PLCC-6" value="OSRAM-MULTILED-RGB" x="-213.3" y="-531.3"/>
 <element name="Q2" library="SparkFun-DiscreteSemi" package="SOT23-3" value="200mA/50V" x="-217.6" y="-531.4">
 <attribute name="PROD_ID" value="TRANS-00830" x="-217.6" y="-531.4" size="1.778" layer="27" display="off"/>
 </element>

@@ -131,76 +131,6 @@
 <libraries>
 <library name="aerial">
 <packages>
-<package name="LQFP-64-STM32F405">
-<wire x1="0" y1="12" x2="0" y2="12.7" width="0.127" layer="21"/>
-<wire x1="0" y1="12" x2="0.5" y2="12.5" width="0.127" layer="21"/>
-<wire x1="0" y1="12.7" x2="1.27" y2="12.7" width="0.127" layer="21"/>
-<smd name="16" x="0.4" y="2.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="15" x="0.4" y="3.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="14" x="0.4" y="3.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="13" x="0.4" y="4.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="12" x="0.4" y="4.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="11" x="0.4" y="5.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="10" x="0.4" y="5.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="9" x="0.4" y="6.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="8" x="0.4" y="6.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="7" x="0.4" y="7.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="6" x="0.4" y="7.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="5" x="0.4" y="8.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="3" x="0.4" y="9.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="4" x="0.4" y="8.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="2" x="0.4" y="9.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="33" x="12.3" y="2.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="34" x="12.3" y="3.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="35" x="12.3" y="3.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="36" x="12.3" y="4.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="37" x="12.3" y="4.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="38" x="12.3" y="5.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="39" x="12.3" y="5.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="40" x="12.3" y="6.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="41" x="12.3" y="6.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="42" x="12.3" y="7.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="43" x="12.3" y="7.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="44" x="12.3" y="8.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="45" x="12.3" y="8.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="46" x="12.3" y="9.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="47" x="12.3" y="9.6" dx="1.6" dy="0.3" layer="1"/>
-<smd name="17" x="2.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="32" x="10.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="18" x="3.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="19" x="3.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="20" x="4.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="21" x="4.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="22" x="5.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="23" x="5.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="24" x="6.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="25" x="6.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="26" x="7.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="27" x="7.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="28" x="8.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="29" x="8.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="30" x="9.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="31" x="9.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
-<smd name="1" x="0.4" y="10.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="48" x="12.3" y="10.1" dx="1.6" dy="0.3" layer="1"/>
-<smd name="64" x="2.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="63" x="3.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="62" x="3.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="61" x="4.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="60" x="4.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="57" x="6.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="59" x="5.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="58" x="5.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="55" x="7.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="56" x="6.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="54" x="7.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="53" x="8.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="52" x="8.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="51" x="9.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="50" x="9.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<smd name="49" x="10.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
-<text x="-2.54" y="13.97" size="1.27" layer="25">&gt;name</text>
-</package>
 <package name="MOLEX-2MM-MICROLATCH-2POS-RA">
 <pad name="1" x="0" y="0" drill="0.8"/>
 <pad name="2" x="2" y="0" drill="0.8"/>
@@ -231,21 +161,6 @@
 <wire x1="-2" y1="-1.6" x2="8" y2="-1.6" width="0.127" layer="21"/>
 <wire x1="-2" y1="5.7" x2="8" y2="5.7" width="0.127" layer="21"/>
 </package>
-<package name="MEAS-MS5611">
-<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21"/>
-<smd name="1" x="-1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
-<smd name="2" x="-1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
-<smd name="3" x="-1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
-<smd name="4" x="-1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
-<smd name="5" x="1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
-<smd name="6" x="1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
-<smd name="7" x="1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
-<smd name="8" x="1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
-<text x="-1.5" y="3" size="1.27" layer="25">&gt;name</text>
-</package>
 <package name="PLCC-6">
 <wire x1="-1.5" y1="-1.65" x2="1.5" y2="-1.65" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-1.65" x2="1.5" y2="1.65" width="0.127" layer="21"/>
@@ -261,86 +176,6 @@
 </package>
 </packages>
 <symbols>
-<symbol name="STM32F405_GPIO">
-<wire x1="-12.7" y1="-43.18" x2="-12.7" y2="43.18" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="43.18" x2="12.7" y2="43.18" width="0.254" layer="94"/>
-<wire x1="12.7" y1="43.18" x2="12.7" y2="-43.18" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-43.18" x2="-12.7" y2="-43.18" width="0.254" layer="94"/>
-<text x="-12.7" y="44.45" size="1.778" layer="95">&gt;name</text>
-<pin name="PC13" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="PC14" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="PC15" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="PH0" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="PH1" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="NRST" x="15.24" y="-38.1" visible="pin" length="short" rot="R180"/>
-<pin name="PC0" x="15.24" y="40.64" visible="pin" length="short" rot="R180"/>
-<pin name="PC1" x="15.24" y="38.1" visible="pin" length="short" rot="R180"/>
-<pin name="PC2" x="15.24" y="35.56" visible="pin" length="short" rot="R180"/>
-<pin name="PC3" x="15.24" y="33.02" visible="pin" length="short" rot="R180"/>
-<pin name="PA0_WKUP" x="-15.24" y="40.64" visible="pin" length="short"/>
-<pin name="PA1" x="-15.24" y="38.1" visible="pin" length="short"/>
-<pin name="PA2" x="-15.24" y="35.56" visible="pin" length="short"/>
-<pin name="PA3" x="-15.24" y="33.02" visible="pin" length="short"/>
-<pin name="PA4" x="-15.24" y="30.48" visible="pin" length="short"/>
-<pin name="PA5" x="-15.24" y="27.94" visible="pin" length="short"/>
-<pin name="PA6" x="-15.24" y="25.4" visible="pin" length="short"/>
-<pin name="PA7" x="-15.24" y="22.86" visible="pin" length="short"/>
-<pin name="PC4" x="15.24" y="30.48" visible="pin" length="short" rot="R180"/>
-<pin name="PC5" x="15.24" y="27.94" visible="pin" length="short" rot="R180"/>
-<pin name="PB0" x="-15.24" y="-2.54" visible="pin" length="short"/>
-<pin name="PB1" x="-15.24" y="-5.08" visible="pin" length="short"/>
-<pin name="PB2" x="-15.24" y="-7.62" visible="pin" length="short"/>
-<pin name="PB10" x="-15.24" y="-27.94" visible="pin" length="short"/>
-<pin name="PB11" x="-15.24" y="-30.48" visible="pin" length="short"/>
-<pin name="PB12" x="-15.24" y="-33.02" visible="pin" length="short"/>
-<pin name="PB13" x="-15.24" y="-35.56" visible="pin" length="short"/>
-<pin name="PB14" x="-15.24" y="-38.1" visible="pin" length="short"/>
-<pin name="PB15" x="-15.24" y="-40.64" visible="pin" length="short"/>
-<pin name="PC6" x="15.24" y="25.4" visible="pin" length="short" rot="R180"/>
-<pin name="PC7" x="15.24" y="22.86" visible="pin" length="short" rot="R180"/>
-<pin name="PC8" x="15.24" y="20.32" visible="pin" length="short" rot="R180"/>
-<pin name="PC9" x="15.24" y="17.78" visible="pin" length="short" rot="R180"/>
-<pin name="PA8" x="-15.24" y="20.32" visible="pin" length="short"/>
-<pin name="PA9" x="-15.24" y="17.78" visible="pin" length="short"/>
-<pin name="PA10" x="-15.24" y="15.24" visible="pin" length="short"/>
-<pin name="PA11" x="-15.24" y="12.7" visible="pin" length="short"/>
-<pin name="PA12" x="-15.24" y="10.16" visible="pin" length="short"/>
-<pin name="PA13" x="-15.24" y="7.62" visible="pin" length="short"/>
-<pin name="PA14" x="-15.24" y="5.08" visible="pin" length="short"/>
-<pin name="PA15" x="-15.24" y="2.54" visible="pin" length="short"/>
-<pin name="PC10" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
-<pin name="PC11" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="PC12" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="PD2" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="PB3" x="-15.24" y="-10.16" visible="pin" length="short"/>
-<pin name="PB4" x="-15.24" y="-12.7" visible="pin" length="short"/>
-<pin name="PB5" x="-15.24" y="-15.24" visible="pin" length="short"/>
-<pin name="PB6" x="-15.24" y="-17.78" visible="pin" length="short"/>
-<pin name="PB7" x="-15.24" y="-20.32" visible="pin" length="short"/>
-<pin name="BOOT0" x="15.24" y="-40.64" visible="pin" length="short" rot="R180"/>
-<pin name="PB8" x="-15.24" y="-22.86" visible="pin" length="short"/>
-<pin name="PB9" x="-15.24" y="-25.4" visible="pin" length="short"/>
-<text x="-12.7" y="-45.72" size="1.778" layer="96">&gt;value</text>
-</symbol>
-<symbol name="STM32F405_POWER">
-<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
-<text x="-12.7" y="11.43" size="1.778" layer="95">&gt;name</text>
-<pin name="VBAT" x="-15.24" y="7.62" visible="pin" length="short" direction="pwr"/>
-<pin name="VSSA" x="15.24" y="7.62" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="VDDA" x="-15.24" y="2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="VSS@18" x="15.24" y="5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="VDD@19" x="-15.24" y="0" visible="pin" length="short" direction="pwr"/>
-<pin name="VCAP_1" x="15.24" y="-2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="VDD@32" x="-15.24" y="-2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="VCAP_2" x="15.24" y="-5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="VDD@48" x="-15.24" y="-5.08" visible="pin" length="short" direction="pwr"/>
-<pin name="VSS@63" x="15.24" y="2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="VDD@64" x="-15.24" y="-7.62" visible="pin" length="short" direction="pwr"/>
-<text x="-12.7" y="-12.7" size="1.778" layer="96">&gt;value</text>
-</symbol>
 <symbol name="2-PIN-HEADER">
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
@@ -371,22 +206,6 @@
 <pin name="3" x="-5.08" y="0" length="short"/>
 <pin name="4" x="-5.08" y="-2.54" length="short"/>
 </symbol>
-<symbol name="MEAS-MS5611">
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="VDD" x="-12.7" y="5.08" length="short" direction="pwr"/>
-<pin name="PS" x="-12.7" y="0" length="short" direction="in"/>
-<pin name="GND" x="-12.7" y="-5.08" length="short" direction="pwr"/>
-<pin name="CSB@4" x="12.7" y="5.08" length="short" direction="in" rot="R180"/>
-<pin name="CSB@5" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
-<pin name="SDO" x="12.7" y="0" length="short" direction="out" rot="R180"/>
-<pin name="SDI/SDA" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="SCLK" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
-<text x="-10.16" y="-10.16" size="1.778" layer="95">&gt;value</text>
-<text x="-10.16" y="8.89" size="1.778" layer="95">&gt;name</text>
-</symbol>
 <symbol name="OSRAM-MULTILED-RGB">
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -403,85 +222,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="STM32F405" prefix="U">
-<gates>
-<gate name=".GPIO" symbol="STM32F405_GPIO" x="12.7" y="43.18"/>
-<gate name=".POWER" symbol="STM32F405_POWER" x="55.88" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="LQFP-64-STM32F405">
-<connects>
-<connect gate=".GPIO" pin="BOOT0" pad="60"/>
-<connect gate=".GPIO" pin="NRST" pad="7"/>
-<connect gate=".GPIO" pin="PA0_WKUP" pad="14"/>
-<connect gate=".GPIO" pin="PA1" pad="15"/>
-<connect gate=".GPIO" pin="PA10" pad="43"/>
-<connect gate=".GPIO" pin="PA11" pad="44"/>
-<connect gate=".GPIO" pin="PA12" pad="45"/>
-<connect gate=".GPIO" pin="PA13" pad="46"/>
-<connect gate=".GPIO" pin="PA14" pad="49"/>
-<connect gate=".GPIO" pin="PA15" pad="50"/>
-<connect gate=".GPIO" pin="PA2" pad="16"/>
-<connect gate=".GPIO" pin="PA3" pad="17"/>
-<connect gate=".GPIO" pin="PA4" pad="20"/>
-<connect gate=".GPIO" pin="PA5" pad="21"/>
-<connect gate=".GPIO" pin="PA6" pad="22"/>
-<connect gate=".GPIO" pin="PA7" pad="23"/>
-<connect gate=".GPIO" pin="PA8" pad="41"/>
-<connect gate=".GPIO" pin="PA9" pad="42"/>
-<connect gate=".GPIO" pin="PB0" pad="26"/>
-<connect gate=".GPIO" pin="PB1" pad="27"/>
-<connect gate=".GPIO" pin="PB10" pad="29"/>
-<connect gate=".GPIO" pin="PB11" pad="30"/>
-<connect gate=".GPIO" pin="PB12" pad="33"/>
-<connect gate=".GPIO" pin="PB13" pad="34"/>
-<connect gate=".GPIO" pin="PB14" pad="35"/>
-<connect gate=".GPIO" pin="PB15" pad="36"/>
-<connect gate=".GPIO" pin="PB2" pad="28"/>
-<connect gate=".GPIO" pin="PB3" pad="55"/>
-<connect gate=".GPIO" pin="PB4" pad="56"/>
-<connect gate=".GPIO" pin="PB5" pad="57"/>
-<connect gate=".GPIO" pin="PB6" pad="58"/>
-<connect gate=".GPIO" pin="PB7" pad="59"/>
-<connect gate=".GPIO" pin="PB8" pad="61"/>
-<connect gate=".GPIO" pin="PB9" pad="62"/>
-<connect gate=".GPIO" pin="PC0" pad="8"/>
-<connect gate=".GPIO" pin="PC1" pad="9"/>
-<connect gate=".GPIO" pin="PC10" pad="51"/>
-<connect gate=".GPIO" pin="PC11" pad="52"/>
-<connect gate=".GPIO" pin="PC12" pad="53"/>
-<connect gate=".GPIO" pin="PC13" pad="2"/>
-<connect gate=".GPIO" pin="PC14" pad="3"/>
-<connect gate=".GPIO" pin="PC15" pad="4"/>
-<connect gate=".GPIO" pin="PC2" pad="10"/>
-<connect gate=".GPIO" pin="PC3" pad="11"/>
-<connect gate=".GPIO" pin="PC4" pad="24"/>
-<connect gate=".GPIO" pin="PC5" pad="25"/>
-<connect gate=".GPIO" pin="PC6" pad="37"/>
-<connect gate=".GPIO" pin="PC7" pad="38"/>
-<connect gate=".GPIO" pin="PC8" pad="39"/>
-<connect gate=".GPIO" pin="PC9" pad="40"/>
-<connect gate=".GPIO" pin="PD2" pad="54"/>
-<connect gate=".GPIO" pin="PH0" pad="5"/>
-<connect gate=".GPIO" pin="PH1" pad="6"/>
-<connect gate=".POWER" pin="VBAT" pad="1"/>
-<connect gate=".POWER" pin="VCAP_1" pad="31"/>
-<connect gate=".POWER" pin="VCAP_2" pad="47"/>
-<connect gate=".POWER" pin="VDD@19" pad="19"/>
-<connect gate=".POWER" pin="VDD@32" pad="32"/>
-<connect gate=".POWER" pin="VDD@48" pad="48"/>
-<connect gate=".POWER" pin="VDD@64" pad="64"/>
-<connect gate=".POWER" pin="VDDA" pad="13"/>
-<connect gate=".POWER" pin="VSS@18" pad="18"/>
-<connect gate=".POWER" pin="VSS@63" pad="63"/>
-<connect gate=".POWER" pin="VSSA" pad="12"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MOLEX-2POS" prefix="J">
 <gates>
 <gate name="G$1" symbol="2-PIN-HEADER" x="0" y="0"/>
@@ -526,28 +266,6 @@
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MEAS-MS5611" prefix="U">
-<gates>
-<gate name="G$1" symbol="MEAS-MS5611" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MEAS-MS5611">
-<connects>
-<connect gate="G$1" pin="CSB@4" pad="4"/>
-<connect gate="G$1" pin="CSB@5" pad="5"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="PS" pad="2"/>
-<connect gate="G$1" pin="SCLK" pad="8"/>
-<connect gate="G$1" pin="SDI/SDA" pad="7"/>
-<connect gate="G$1" pin="SDO" pad="6"/>
-<connect gate="G$1" pin="VDD" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5348,6 +5066,478 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="OSURC_Sensors">
+<packages>
+<package name="MEAS-MS5611">
+<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21"/>
+<smd name="1" x="-1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
+<smd name="2" x="-1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
+<smd name="3" x="-1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
+<smd name="4" x="-1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
+<smd name="5" x="1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
+<smd name="6" x="1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
+<smd name="7" x="1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
+<smd name="8" x="1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
+<text x="-1.5" y="3" size="1.27" layer="25">&gt;name</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MEAS-MS5611">
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="VDD" x="-12.7" y="5.08" length="short" direction="pwr"/>
+<pin name="PS" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="GND" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="CSB@4" x="12.7" y="5.08" length="short" direction="in" rot="R180"/>
+<pin name="CSB@5" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="SDO" x="12.7" y="0" length="short" direction="out" rot="R180"/>
+<pin name="SDI/SDA" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="SCLK" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
+<text x="-10.16" y="-10.16" size="1.778" layer="95">&gt;value</text>
+<text x="-10.16" y="8.89" size="1.778" layer="95">&gt;name</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MEAS-MS5611" prefix="U">
+<gates>
+<gate name="G$1" symbol="MEAS-MS5611" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MEAS-MS5611">
+<connects>
+<connect gate="G$1" pin="CSB@4" pad="4"/>
+<connect gate="G$1" pin="CSB@5" pad="5"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="PS" pad="2"/>
+<connect gate="G$1" pin="SCLK" pad="8"/>
+<connect gate="G$1" pin="SDI/SDA" pad="7"/>
+<connect gate="G$1" pin="SDO" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="OSURC_DigitalIC">
+<packages>
+<package name="LQFP-64-STM32F405">
+<wire x1="0" y1="12" x2="0" y2="12.7" width="0.127" layer="21"/>
+<wire x1="0" y1="12" x2="0.5" y2="12.5" width="0.127" layer="21"/>
+<wire x1="0" y1="12.7" x2="1.27" y2="12.7" width="0.127" layer="21"/>
+<smd name="16" x="0.4" y="2.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="15" x="0.4" y="3.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="14" x="0.4" y="3.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="13" x="0.4" y="4.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="12" x="0.4" y="4.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="11" x="0.4" y="5.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="10" x="0.4" y="5.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="9" x="0.4" y="6.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="8" x="0.4" y="6.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="7" x="0.4" y="7.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="6" x="0.4" y="7.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="5" x="0.4" y="8.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="3" x="0.4" y="9.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="4" x="0.4" y="8.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="2" x="0.4" y="9.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="33" x="12.3" y="2.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="34" x="12.3" y="3.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="35" x="12.3" y="3.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="36" x="12.3" y="4.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="37" x="12.3" y="4.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="38" x="12.3" y="5.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="39" x="12.3" y="5.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="40" x="12.3" y="6.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="41" x="12.3" y="6.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="42" x="12.3" y="7.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="43" x="12.3" y="7.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="44" x="12.3" y="8.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="45" x="12.3" y="8.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="46" x="12.3" y="9.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="47" x="12.3" y="9.6" dx="1.6" dy="0.3" layer="1"/>
+<smd name="17" x="2.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="32" x="10.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="18" x="3.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="19" x="3.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="20" x="4.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="21" x="4.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="22" x="5.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="23" x="5.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="24" x="6.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="25" x="6.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="26" x="7.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="27" x="7.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="28" x="8.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="29" x="8.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="30" x="9.1" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="31" x="9.6" y="0.4" dx="0.3" dy="1.6" layer="1"/>
+<smd name="1" x="0.4" y="10.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="48" x="12.3" y="10.1" dx="1.6" dy="0.3" layer="1"/>
+<smd name="64" x="2.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="63" x="3.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="62" x="3.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="61" x="4.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="60" x="4.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="57" x="6.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="59" x="5.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="58" x="5.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="55" x="7.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="56" x="6.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="54" x="7.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="53" x="8.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="52" x="8.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="51" x="9.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="50" x="9.6" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<smd name="49" x="10.1" y="12.3" dx="0.3" dy="1.6" layer="1"/>
+<text x="-2.54" y="13.97" size="1.27" layer="25">&gt;name</text>
+</package>
+</packages>
+<symbols>
+<symbol name="STM32F405_GPIO">
+<wire x1="-12.7" y1="-43.18" x2="-12.7" y2="43.18" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="43.18" x2="12.7" y2="43.18" width="0.254" layer="94"/>
+<wire x1="12.7" y1="43.18" x2="12.7" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-43.18" x2="-12.7" y2="-43.18" width="0.254" layer="94"/>
+<text x="-12.7" y="44.45" size="1.778" layer="95">&gt;name</text>
+<pin name="PC13" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="PC14" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="PC15" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="PH0" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="PH1" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="NRST" x="15.24" y="-38.1" visible="pin" length="short" rot="R180"/>
+<pin name="PC0" x="15.24" y="40.64" visible="pin" length="short" rot="R180"/>
+<pin name="PC1" x="15.24" y="38.1" visible="pin" length="short" rot="R180"/>
+<pin name="PC2" x="15.24" y="35.56" visible="pin" length="short" rot="R180"/>
+<pin name="PC3" x="15.24" y="33.02" visible="pin" length="short" rot="R180"/>
+<pin name="PA0_WKUP" x="-15.24" y="40.64" visible="pin" length="short"/>
+<pin name="PA1" x="-15.24" y="38.1" visible="pin" length="short"/>
+<pin name="PA2" x="-15.24" y="35.56" visible="pin" length="short"/>
+<pin name="PA3" x="-15.24" y="33.02" visible="pin" length="short"/>
+<pin name="PA4" x="-15.24" y="30.48" visible="pin" length="short"/>
+<pin name="PA5" x="-15.24" y="27.94" visible="pin" length="short"/>
+<pin name="PA6" x="-15.24" y="25.4" visible="pin" length="short"/>
+<pin name="PA7" x="-15.24" y="22.86" visible="pin" length="short"/>
+<pin name="PC4" x="15.24" y="30.48" visible="pin" length="short" rot="R180"/>
+<pin name="PC5" x="15.24" y="27.94" visible="pin" length="short" rot="R180"/>
+<pin name="PB0" x="-15.24" y="-2.54" visible="pin" length="short"/>
+<pin name="PB1" x="-15.24" y="-5.08" visible="pin" length="short"/>
+<pin name="PB2" x="-15.24" y="-7.62" visible="pin" length="short"/>
+<pin name="PB10" x="-15.24" y="-27.94" visible="pin" length="short"/>
+<pin name="PB11" x="-15.24" y="-30.48" visible="pin" length="short"/>
+<pin name="PB12" x="-15.24" y="-33.02" visible="pin" length="short"/>
+<pin name="PB13" x="-15.24" y="-35.56" visible="pin" length="short"/>
+<pin name="PB14" x="-15.24" y="-38.1" visible="pin" length="short"/>
+<pin name="PB15" x="-15.24" y="-40.64" visible="pin" length="short"/>
+<pin name="PC6" x="15.24" y="25.4" visible="pin" length="short" rot="R180"/>
+<pin name="PC7" x="15.24" y="22.86" visible="pin" length="short" rot="R180"/>
+<pin name="PC8" x="15.24" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="PC9" x="15.24" y="17.78" visible="pin" length="short" rot="R180"/>
+<pin name="PA8" x="-15.24" y="20.32" visible="pin" length="short"/>
+<pin name="PA9" x="-15.24" y="17.78" visible="pin" length="short"/>
+<pin name="PA10" x="-15.24" y="15.24" visible="pin" length="short"/>
+<pin name="PA11" x="-15.24" y="12.7" visible="pin" length="short"/>
+<pin name="PA12" x="-15.24" y="10.16" visible="pin" length="short"/>
+<pin name="PA13" x="-15.24" y="7.62" visible="pin" length="short"/>
+<pin name="PA14" x="-15.24" y="5.08" visible="pin" length="short"/>
+<pin name="PA15" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="PC10" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="PC11" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="PC12" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="PD2" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="PB3" x="-15.24" y="-10.16" visible="pin" length="short"/>
+<pin name="PB4" x="-15.24" y="-12.7" visible="pin" length="short"/>
+<pin name="PB5" x="-15.24" y="-15.24" visible="pin" length="short"/>
+<pin name="PB6" x="-15.24" y="-17.78" visible="pin" length="short"/>
+<pin name="PB7" x="-15.24" y="-20.32" visible="pin" length="short"/>
+<pin name="BOOT0" x="15.24" y="-40.64" visible="pin" length="short" rot="R180"/>
+<pin name="PB8" x="-15.24" y="-22.86" visible="pin" length="short"/>
+<pin name="PB9" x="-15.24" y="-25.4" visible="pin" length="short"/>
+<text x="-12.7" y="-45.72" size="1.778" layer="96">&gt;value</text>
+</symbol>
+<symbol name="STM32F405_POWER">
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<text x="-12.7" y="11.43" size="1.778" layer="95">&gt;name</text>
+<pin name="VBAT" x="-15.24" y="7.62" visible="pin" length="short" direction="pwr"/>
+<pin name="VSSA" x="15.24" y="7.62" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="VDDA" x="-15.24" y="2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="VSS@18" x="15.24" y="5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD@19" x="-15.24" y="0" visible="pin" length="short" direction="pwr"/>
+<pin name="VCAP_1" x="15.24" y="-2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD@32" x="-15.24" y="-2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="VCAP_2" x="15.24" y="-5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD@48" x="-15.24" y="-5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="VSS@63" x="15.24" y="2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD@64" x="-15.24" y="-7.62" visible="pin" length="short" direction="pwr"/>
+<text x="-12.7" y="-12.7" size="1.778" layer="96">&gt;value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STM32F405" prefix="U">
+<gates>
+<gate name=".GPIO" symbol="STM32F405_GPIO" x="12.7" y="43.18"/>
+<gate name=".POWER" symbol="STM32F405_POWER" x="55.88" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="LQFP-64-STM32F405">
+<connects>
+<connect gate=".GPIO" pin="BOOT0" pad="60"/>
+<connect gate=".GPIO" pin="NRST" pad="7"/>
+<connect gate=".GPIO" pin="PA0_WKUP" pad="14"/>
+<connect gate=".GPIO" pin="PA1" pad="15"/>
+<connect gate=".GPIO" pin="PA10" pad="43"/>
+<connect gate=".GPIO" pin="PA11" pad="44"/>
+<connect gate=".GPIO" pin="PA12" pad="45"/>
+<connect gate=".GPIO" pin="PA13" pad="46"/>
+<connect gate=".GPIO" pin="PA14" pad="49"/>
+<connect gate=".GPIO" pin="PA15" pad="50"/>
+<connect gate=".GPIO" pin="PA2" pad="16"/>
+<connect gate=".GPIO" pin="PA3" pad="17"/>
+<connect gate=".GPIO" pin="PA4" pad="20"/>
+<connect gate=".GPIO" pin="PA5" pad="21"/>
+<connect gate=".GPIO" pin="PA6" pad="22"/>
+<connect gate=".GPIO" pin="PA7" pad="23"/>
+<connect gate=".GPIO" pin="PA8" pad="41"/>
+<connect gate=".GPIO" pin="PA9" pad="42"/>
+<connect gate=".GPIO" pin="PB0" pad="26"/>
+<connect gate=".GPIO" pin="PB1" pad="27"/>
+<connect gate=".GPIO" pin="PB10" pad="29"/>
+<connect gate=".GPIO" pin="PB11" pad="30"/>
+<connect gate=".GPIO" pin="PB12" pad="33"/>
+<connect gate=".GPIO" pin="PB13" pad="34"/>
+<connect gate=".GPIO" pin="PB14" pad="35"/>
+<connect gate=".GPIO" pin="PB15" pad="36"/>
+<connect gate=".GPIO" pin="PB2" pad="28"/>
+<connect gate=".GPIO" pin="PB3" pad="55"/>
+<connect gate=".GPIO" pin="PB4" pad="56"/>
+<connect gate=".GPIO" pin="PB5" pad="57"/>
+<connect gate=".GPIO" pin="PB6" pad="58"/>
+<connect gate=".GPIO" pin="PB7" pad="59"/>
+<connect gate=".GPIO" pin="PB8" pad="61"/>
+<connect gate=".GPIO" pin="PB9" pad="62"/>
+<connect gate=".GPIO" pin="PC0" pad="8"/>
+<connect gate=".GPIO" pin="PC1" pad="9"/>
+<connect gate=".GPIO" pin="PC10" pad="51"/>
+<connect gate=".GPIO" pin="PC11" pad="52"/>
+<connect gate=".GPIO" pin="PC12" pad="53"/>
+<connect gate=".GPIO" pin="PC13" pad="2"/>
+<connect gate=".GPIO" pin="PC14" pad="3"/>
+<connect gate=".GPIO" pin="PC15" pad="4"/>
+<connect gate=".GPIO" pin="PC2" pad="10"/>
+<connect gate=".GPIO" pin="PC3" pad="11"/>
+<connect gate=".GPIO" pin="PC4" pad="24"/>
+<connect gate=".GPIO" pin="PC5" pad="25"/>
+<connect gate=".GPIO" pin="PC6" pad="37"/>
+<connect gate=".GPIO" pin="PC7" pad="38"/>
+<connect gate=".GPIO" pin="PC8" pad="39"/>
+<connect gate=".GPIO" pin="PC9" pad="40"/>
+<connect gate=".GPIO" pin="PD2" pad="54"/>
+<connect gate=".GPIO" pin="PH0" pad="5"/>
+<connect gate=".GPIO" pin="PH1" pad="6"/>
+<connect gate=".POWER" pin="VBAT" pad="1"/>
+<connect gate=".POWER" pin="VCAP_1" pad="31"/>
+<connect gate=".POWER" pin="VCAP_2" pad="47"/>
+<connect gate=".POWER" pin="VDD@19" pad="19"/>
+<connect gate=".POWER" pin="VDD@32" pad="32"/>
+<connect gate=".POWER" pin="VDD@48" pad="48"/>
+<connect gate=".POWER" pin="VDD@64" pad="64"/>
+<connect gate=".POWER" pin="VDDA" pad="13"/>
+<connect gate=".POWER" pin="VSS@18" pad="18"/>
+<connect gate=".POWER" pin="VSS@63" pad="63"/>
+<connect gate=".POWER" pin="VSSA" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="OSURC_LED">
+<packages>
+<package name="PLCC-6">
+<wire x1="-1.5" y1="-1.65" x2="1.5" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.65" x2="1.5" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.65" x2="-1.5" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.65" x2="1.5" y2="1.65" width="0.127" layer="21"/>
+<text x="-1.5" y="2.2" size="1.27" layer="21">&gt;name</text>
+<smd name="C1" x="-1.75" y="1.1" dx="1.8" dy="0.7" layer="1"/>
+<smd name="C2" x="-1.75" y="0" dx="1.8" dy="0.7" layer="1"/>
+<smd name="C3" x="-1.75" y="-1.1" dx="1.8" dy="0.7" layer="1"/>
+<smd name="A1" x="1.75" y="1.1" dx="1.8" dy="0.7" layer="1"/>
+<smd name="A2" x="1.75" y="0" dx="1.8" dy="0.7" layer="1"/>
+<smd name="A3" x="1.75" y="-1.1" dx="1.8" dy="0.7" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="OSRAM-MULTILED-RGB">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="R+" x="-10.16" y="2.54" length="short" direction="in"/>
+<pin name="G+" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="B+" x="-10.16" y="-2.54" length="short" direction="in"/>
+<pin name="R-" x="10.16" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="G-" x="10.16" y="0" length="short" direction="pwr" rot="R180"/>
+<pin name="B-" x="10.16" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<text x="-7.62" y="-7.62" size="1.778" layer="95">&gt;value</text>
+<text x="-7.62" y="6.35" size="1.778" layer="95">&gt;name</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="OSRAM-MULTILED-RGB" prefix="LED">
+<gates>
+<gate name="G$1" symbol="OSRAM-MULTILED-RGB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PLCC-6">
+<connects>
+<connect gate="G$1" pin="B+" pad="A1"/>
+<connect gate="G$1" pin="B-" pad="C1"/>
+<connect gate="G$1" pin="G+" pad="A3"/>
+<connect gate="G$1" pin="G-" pad="C3"/>
+<connect gate="G$1" pin="R+" pad="A2"/>
+<connect gate="G$1" pin="R-" pad="C2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="OSURC_Connectors">
+<packages>
+<package name="MOLEX-2MM-MICROLATCH-2POS-RA">
+<pad name="1" x="0" y="0" drill="0.8"/>
+<pad name="2" x="2" y="0" drill="0.8"/>
+<text x="-2" y="-2.1" size="1.27" layer="25" align="top-left">&gt;name</text>
+<wire x1="-2" y1="-1.6" x2="-2" y2="5.7" width="0.127" layer="21"/>
+<wire x1="4" y1="-1.6" x2="4" y2="5.7" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.6" x2="4" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2" y1="5.7" x2="4" y2="5.7" width="0.127" layer="21"/>
+</package>
+<package name="MOLEX-2MM-MICROLATCH-3POS-RA">
+<pad name="1" x="0" y="0" drill="0.8"/>
+<pad name="2" x="2" y="0" drill="0.8"/>
+<pad name="3" x="4" y="0" drill="0.8"/>
+<text x="-2" y="-2.1" size="1.27" layer="25" align="top-left">&gt;name</text>
+<wire x1="-2" y1="-1.6" x2="-2" y2="5.7" width="0.127" layer="21"/>
+<wire x1="6" y1="-1.6" x2="6" y2="5.7" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.6" x2="6" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2" y1="5.7" x2="6" y2="5.7" width="0.127" layer="21"/>
+</package>
+<package name="MOLEX-2MM-MICROLATCH-4POS-RA">
+<pad name="1" x="0" y="0" drill="0.8"/>
+<pad name="2" x="2" y="0" drill="0.8"/>
+<pad name="3" x="4" y="0" drill="0.8"/>
+<pad name="4" x="6" y="0" drill="0.8"/>
+<text x="-2" y="-2.1" size="1.27" layer="25" align="top-left">&gt;name</text>
+<wire x1="-2" y1="-1.6" x2="-2" y2="5.7" width="0.127" layer="21"/>
+<wire x1="8" y1="-1.6" x2="8" y2="5.7" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.6" x2="8" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2" y1="5.7" x2="8" y2="5.7" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="2-PIN-HEADER">
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="6.35" size="1.778" layer="95">&gt;name</text>
+<pin name="1" x="-5.08" y="2.54" length="short"/>
+<pin name="2" x="-5.08" y="0" length="short"/>
+</symbol>
+<symbol name="3-PIN-HEADER">
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="6.35" size="1.778" layer="95">&gt;name</text>
+<pin name="1" x="-5.08" y="2.54" length="short"/>
+<pin name="2" x="-5.08" y="0" length="short"/>
+<pin name="3" x="-5.08" y="-2.54" length="short"/>
+</symbol>
+<symbol name="4-PIN-HEADER">
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="8.89" size="1.778" layer="95">&gt;name</text>
+<pin name="1" x="-5.08" y="5.08" length="short"/>
+<pin name="2" x="-5.08" y="2.54" length="short"/>
+<pin name="3" x="-5.08" y="0" length="short"/>
+<pin name="4" x="-5.08" y="-2.54" length="short"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOLEX-2POS" prefix="J">
+<gates>
+<gate name="G$1" symbol="2-PIN-HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX-2MM-MICROLATCH-2POS-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOLEX-3POS" prefix="J">
+<gates>
+<gate name="G$1" symbol="3-PIN-HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX-2MM-MICROLATCH-3POS-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOLEX-4POS" prefix="J">
+<gates>
+<gate name="G$1" symbol="4-PIN-HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX-2MM-MICROLATCH-4POS-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5367,7 +5557,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U3" library="SparkFun-Connectors" deviceset="USD-SOCKET" device="NEW"/>
-<part name="U4" library="aerial" deviceset="STM32F405" device=""/>
+<part name="U4" library="OSURC_DigitalIC" deviceset="STM32F405" device=""/>
 <part name="R8" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="20K"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF-25V-5%(0603)" device="" value="0.1uF"/>
 <part name="U5" library="SparkFun-PowerIC" deviceset="V_REG_MIC5219" device="3.3V" value="MIC5219 3.3V"/>
@@ -5425,7 +5615,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J1" library="aerial" deviceset="MOLEX-2POS" device=""/>
+<part name="J1" library="OSURC_Connectors" deviceset="MOLEX-2POS" device=""/>
 <part name="J2" library="aerial" deviceset="MOLEX-2POS" device=""/>
 <part name="J3" library="aerial" deviceset="MOLEX-2POS" device=""/>
 <part name="J4" library="aerial" deviceset="MOLEX-2POS" device=""/>
@@ -5437,7 +5627,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J13" library="aerial" deviceset="MOLEX-3POS" device=""/>
 <part name="J14" library="aerial" deviceset="MOLEX-3POS" device=""/>
 <part name="J16" library="aerial" deviceset="MOLEX-3POS" device=""/>
-<part name="J17" library="aerial" deviceset="MOLEX-3POS" device=""/>
+<part name="J17" library="OSURC_Connectors" deviceset="MOLEX-3POS" device=""/>
 <part name="J19" library="aerial" deviceset="MOLEX-3POS" device=""/>
 <part name="J20" library="aerial" deviceset="MOLEX-4POS" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -5465,7 +5655,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF-25V-5%(0603)" device="" value="0.1uF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="2.2UF-10V-20%(0603)" device="" value="2.2uF"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="2.2UF-10V-20%(0603)" device="" value="2.2uF"/>
-<part name="U2" library="aerial" deviceset="MEAS-MS5611" device=""/>
+<part name="U2" library="OSURC_Sensors" deviceset="MEAS-MS5611" device=""/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="0.1UF-25V-5%(0603)" device="" value="0.1uF"/>
@@ -5488,7 +5678,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="XBEE" library="SparkFun-RF" deviceset="XBEE-1" device="B3"/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="J18" library="aerial" deviceset="MOLEX-4POS" device=""/>
+<part name="J18" library="OSURC_Connectors" deviceset="MOLEX-4POS" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="680"/>
@@ -5497,7 +5687,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LED5" library="SparkFun-LED" deviceset="LED" device="0603" value="ORANGE"/>
 <part name="LED6" library="SparkFun-LED" deviceset="LED" device="0603" value="ORANGE"/>
 <part name="LED7" library="SparkFun-LED" deviceset="LED" device="0603" value="ORANGE"/>
-<part name="LED14" library="aerial" deviceset="OSRAM-MULTILED-RGB" device=""/>
+<part name="LED14" library="OSURC_LED" deviceset="OSRAM-MULTILED-RGB" device=""/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="200mA/50V"/>
 <part name="Q5" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="200mA/50V"/>
 <part name="Q6" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="200mA/50V"/>
@@ -5566,7 +5756,7 @@ We implement the parallel interface.</text>
 <text x="15.24" y="-208.28" size="7.62" layer="91">XBee</text>
 <text x="259.08" y="-523.24" size="7.62" layer="98">TODO</text>
 <text x="246.38" y="243.84" size="5.08" layer="91">Status LED</text>
-<text x="345.44" y="81.28" size="12.7" layer="98">TODO</text>
+<text x="411.48" y="119.38" size="12.7" layer="98">TODO</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="G$1" x="17.78" y="-144.78"/>
@@ -5926,6 +6116,7 @@ We implement the parallel interface.</text>
 <junction x="363.22" y="134.62"/>
 <wire x1="363.22" y1="116.84" x2="363.22" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
+<junction x="363.22" y="116.84"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="GND"/>
