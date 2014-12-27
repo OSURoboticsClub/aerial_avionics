@@ -4967,6 +4967,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.7" y="2.9" size="0.5" layer="25">&gt;name</text>
 <text x="-1.8" y="-1.2" size="0.5" layer="25" rot="R90">&gt;value</text>
 </package>
+<package name="SMAJ">
+<description>Bourns SMAJ TVS diode series (http://www.bourns.com/data/global/pdfs/SMAJ.pdf)
+
+Pads extend 0.02" farther than recommended for easy hand-solderability.</description>
+<wire x1="-2.159" y1="1.27" x2="-2.159" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.159" y1="-1.27" x2="1.143" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.143" y1="-1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="2.159" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.159" y1="-1.27" x2="2.159" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.159" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
+<smd name="A" x="-2.2352" y="0" dx="1.778" dy="2.1082" layer="1"/>
+<smd name="C" x="2.2352" y="0" dx="1.778" dy="2.1082" layer="1"/>
+<wire x1="1.27" y1="1.27" x2="1.143" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.143" y1="1.27" x2="-2.159" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.143" y1="1.27" x2="1.143" y2="-1.27" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MOSFET-NCHANNEL-1">
@@ -5051,6 +5068,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
+<symbol name="DIODE-TVS-BIDIRECTIONAL">
+<wire x1="-2.794" y1="-1.27" x2="-0.254" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="0" x2="-2.794" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="1.778" x2="-0.254" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="1.27" x2="-0.254" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="1.27" x2="-2.794" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="0" x2="-2.794" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.254" y1="-1.27" x2="0.762" y2="-1.778" width="0.254" layer="94"/>
+<text x="-4.064" y="2.286" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.318" y="-4.064" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="-2.794" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="1.27" x2="0.254" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0.254" y1="0.762" x2="0.254" y2="0" width="0.254" layer="94"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.254" y1="-1.27" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.794" y2="0" width="0.254" layer="94"/>
+<wire x1="0.254" y1="0" x2="2.794" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.794" y1="1.27" x2="2.794" y2="0" width="0.254" layer="94"/>
+<wire x1="2.794" y1="0" x2="2.794" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-1.27" x2="0.254" y2="0" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MOSFET-NCHANNEL-DUAL" prefix="Q">
@@ -5110,6 +5151,24 @@ FQP27P06 -
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PN" value="785-1421-1-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE-TVS-BIDIRECTIONAL" prefix="D">
+<gates>
+<gate name="G$1" symbol="DIODE-TVS-BIDIRECTIONAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMAJ12CA" package="SMAJ">
+<connects>
+<connect gate="G$1" pin="1" pad="A"/>
+<connect gate="G$1" pin="2" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PN" value="SMAJ12CABCT-ND"/>
 </technology>
 </technologies>
 </device>
@@ -5289,6 +5348,7 @@ FQP27P06 -
 <part name="SUPPLY21" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="SparkFun-Aesthetics" deviceset="VIN" device="" value="5Vin"/>
+<part name="D1" library="OSURC_DiscreteSemi" deviceset="DIODE-TVS-BIDIRECTIONAL" device="-SMAJ12CA"/>
 </parts>
 <sheets>
 <sheet>
@@ -5344,10 +5404,8 @@ We implement the parallel interface.</text>
 <text x="312.42" y="157.48" size="1.778" layer="98">1K pullup on KILL pulls TIM1 and TIM4 channels down until 
 the XBee deasserts KILL.</text>
 <text x="317.5" y="-403.86" size="7.62" layer="91">5V in</text>
-<text x="129.54" y="-73.66" size="7.62" layer="91">Protection</text>
+<text x="129.54" y="-73.66" size="7.62" layer="91">TVS/RVP</text>
 <text x="317.5" y="-439.42" size="1.778" layer="98">TODO: consider replacing with Molex Duraclik</text>
-<text x="129.54" y="-81.28" size="2.54" layer="91">Reverse Voltage</text>
-<text x="187.96" y="-81.28" size="2.54" layer="91">TVS</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="G$1" x="17.78" y="-144.78"/>
@@ -5513,11 +5571,18 @@ the XBee deasserts KILL.</text>
 <instance part="Q2" gate="A" x="281.94" y="147.32"/>
 <instance part="J10" gate="G$1" x="327.66" y="-421.64"/>
 <instance part="GND9" gate="1" x="320.04" y="-429.26"/>
-<instance part="Q3" gate="G$1" x="142.24" y="-99.06"/>
-<instance part="SUPPLY19" gate="G$1" x="142.24" y="-91.44"/>
-<instance part="SUPPLY21" gate="G$1" x="149.86" y="-106.68"/>
-<instance part="GND22" gate="1" x="132.08" y="-104.14"/>
+<instance part="Q3" gate="G$1" x="144.78" y="-86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="142.24" y="-81.28" size="1.778" layer="95"/>
+<attribute name="VALUE" x="149.86" y="-91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY19" gate="G$1" x="134.62" y="-83.82"/>
+<instance part="SUPPLY21" gate="G$1" x="154.94" y="-83.82"/>
+<instance part="GND22" gate="1" x="134.62" y="-106.68"/>
 <instance part="SUPPLY22" gate="G$1" x="320.04" y="-414.02"/>
+<instance part="D1" gate="G$1" x="134.62" y="-93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="132.334" y="-98.044" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="137.922" y="-98.044" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5886,10 +5951,14 @@ the XBee deasserts KILL.</text>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="G"/>
 <pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="134.62" y1="-99.06" x2="132.08" y2="-99.06" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="-99.06" x2="132.08" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-104.14" x2="134.62" y2="-101.6" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
+<wire x1="134.62" y1="-101.6" x2="134.62" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="-93.98" x2="144.78" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="-101.6" x2="134.62" y2="-101.6" width="0.1524" layer="91"/>
+<junction x="134.62" y="-101.6"/>
+<pinref part="D1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="UART4-TX" class="0">
@@ -6017,9 +6086,9 @@ the XBee deasserts KILL.</text>
 </segment>
 <segment>
 <pinref part="Q3" gate="G$1" pin="S"/>
-<wire x1="142.24" y1="-104.14" x2="142.24" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-86.36" x2="154.94" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY21" gate="G$1" pin="5V"/>
-<wire x1="142.24" y1="-106.68" x2="149.86" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-86.36" x2="154.94" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC1-IN" class="0">
@@ -7231,15 +7300,19 @@ the XBee deasserts KILL.</text>
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="SUPPLY19" gate="G$1" pin="VIN"/>
-<pinref part="Q3" gate="G$1" pin="D"/>
-<wire x1="142.24" y1="-91.44" x2="142.24" y2="-93.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J10" gate="G$1" pin="1"/>
 <wire x1="322.58" y1="-419.1" x2="320.04" y2="-419.1" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="-419.1" x2="320.04" y2="-414.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="G$1" pin="VIN"/>
+</segment>
+<segment>
+<pinref part="SUPPLY19" gate="G$1" pin="VIN"/>
+<wire x1="134.62" y1="-83.82" x2="134.62" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="D"/>
+<wire x1="134.62" y1="-86.36" x2="134.62" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-86.36" x2="139.7" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="134.62" y="-86.36"/>
+<pinref part="D1" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
