@@ -11,11 +11,16 @@ additions will include the following:
 
   * uBlox GPS
   * MS5611 barometer
+  * MPU-9250 9DoF sensor in place of MPU-6000
   * MicroSD card reader
   * High-speed USB
   * More TIM channels and UART buses
+  * Killswitch BJTs replaced with MOSFETs, and more of 'em
   * External SPI and I2C buses
   * Molex MicroLatch 2mm connectors in place of bulkier sherlock
+  * Reverse voltage protection and TVS on 5V input
+  * External crystal oscillator on STM32F4
+  * Blinding status LED
 
 This will be a development version with many debug pads and a rather open
 layout for easier troubleshooting.
