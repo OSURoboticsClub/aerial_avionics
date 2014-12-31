@@ -4515,7 +4515,7 @@ FQP27P06 -
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J2" library="OSURC_Connectors" deviceset="M02" device=""/>
+<part name="J1" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="0.1UF-25V-5%(0603)" device="" value="0.1uF"/>
@@ -4634,7 +4634,6 @@ FQP27P06 -
 <part name="J6" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J10" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J13" library="OSURC_Connectors" deviceset="M02" device=""/>
-<part name="J1" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J7" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J11" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J14" library="OSURC_Connectors" deviceset="M02" device=""/>
@@ -4651,6 +4650,7 @@ FQP27P06 -
 <part name="J18" library="OSURC_Connectors" deviceset="M04" device=""/>
 <part name="J19" library="OSURC_Connectors" deviceset="M04" device=""/>
 <part name="J21" library="OSURC_Connectors" deviceset="M04" device=""/>
+<part name="J2" library="OSURC_Connectors" deviceset="M02" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4757,7 +4757,7 @@ the XBee deasserts KILL.</text>
 <instance part="GND13" gate="1" x="162.56" y="167.64"/>
 <instance part="GND15" gate="1" x="215.9" y="200.66"/>
 <instance part="GND16" gate="1" x="162.56" y="220.98"/>
-<instance part="J2" gate="G$1" x="40.64" y="-416.56"/>
+<instance part="J1" gate="G$1" x="40.64" y="-416.56"/>
 <instance part="GND17" gate="1" x="27.94" y="-513.08"/>
 <instance part="GND18" gate="1" x="73.66" y="-510.54"/>
 <instance part="C15" gate="G$1" x="17.78" y="-276.86"/>
@@ -4887,7 +4887,6 @@ the XBee deasserts KILL.</text>
 <instance part="J6" gate="G$1" x="40.64" y="-429.26"/>
 <instance part="J10" gate="G$1" x="40.64" y="-441.96"/>
 <instance part="J13" gate="G$1" x="40.64" y="-454.66"/>
-<instance part="J1" gate="G$1" x="78.60401875" y="-416.27306875"/>
 <instance part="J7" gate="G$1" x="78.74" y="-429.26"/>
 <instance part="J11" gate="G$1" x="78.74" y="-441.96"/>
 <instance part="J14" gate="G$1" x="78.74" y="-454.66"/>
@@ -4904,6 +4903,7 @@ the XBee deasserts KILL.</text>
 <instance part="J18" gate="G$1" x="35.56" y="-502.92"/>
 <instance part="J19" gate="G$1" x="175.26" y="-508"/>
 <instance part="J21" gate="G$1" x="149.86" y="-579.12"/>
+<instance part="J2" gate="G$1" x="78.74" y="-416.56"/>
 </instances>
 <busses>
 </busses>
@@ -4944,7 +4944,7 @@ the XBee deasserts KILL.</text>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="33.02" y1="-454.66" x2="33.02" y2="-459.74" width="0.1524" layer="91"/>
 <junction x="33.02" y="-454.66"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 <pinref part="J6" gate="G$1" pin="2"/>
 <pinref part="J10" gate="G$1" pin="2"/>
 <pinref part="J13" gate="G$1" pin="2"/>
@@ -4965,6 +4965,7 @@ the XBee deasserts KILL.</text>
 <pinref part="J7" gate="G$1" pin="2"/>
 <pinref part="J11" gate="G$1" pin="2"/>
 <pinref part="J14" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="-520.7" x2="127" y2="-520.7" width="0.1524" layer="91"/>
@@ -5990,6 +5991,7 @@ the XBee deasserts KILL.</text>
 <segment>
 <wire x1="223.52" y1="-518.16" x2="246.38" y2="-518.16" width="0.1524" layer="91"/>
 <label x="223.52" y="-518.16" size="1.778" layer="95"/>
+<pinref part="TP15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OSC-OUT" class="0">
@@ -6258,7 +6260,7 @@ the XBee deasserts KILL.</text>
 <segment>
 <wire x1="35.56" y1="-414.02" x2="15.24" y2="-414.02" width="0.1524" layer="91"/>
 <label x="15.24" y="-414.02" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <label x="335.28" y="231.14" size="1.778" layer="95"/>
@@ -6322,6 +6324,7 @@ the XBee deasserts KILL.</text>
 <segment>
 <wire x1="73.66" y1="-414.02" x2="53.34" y2="-414.02" width="0.1524" layer="91"/>
 <label x="53.34" y="-414.02" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <label x="335.28" y="187.96" size="1.778" layer="95"/>
@@ -6700,19 +6703,21 @@ the XBee deasserts KILL.</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,45.72,-147.32,U4.POWER,VBAT,3.3V,,,"/>
-<approved hash="104,1,76.2,-147.32,U4.POWER,VSSA,GND,,,"/>
-<approved hash="104,1,45.72,-152.4,U4.POWER,VDDA,3.3V,,,"/>
-<approved hash="104,1,76.2,-149.86,U4.POWER,VSS,GND,,,"/>
-<approved hash="104,1,45.72,-154.94,U4.POWER,VDD,3.3V,,,"/>
-<approved hash="104,1,45.72,-157.48,U4.POWER,VDD,3.3V,,,"/>
-<approved hash="104,1,45.72,-160.02,U4.POWER,VDD,3.3V,,,"/>
-<approved hash="104,1,76.2,-152.4,U4.POWER,VSS,GND,,,"/>
-<approved hash="104,1,45.72,-162.56,U4.POWER,VDD,3.3V,,,"/>
+<approved hash="104,1,45.72,-147.32,U1.POWER,VBAT,3.3V,,,"/>
+<approved hash="104,1,76.2,-147.32,U1.POWER,VSSA,GND,,,"/>
+<approved hash="104,1,45.72,-152.4,U1.POWER,VDDA,3.3V,,,"/>
+<approved hash="104,1,76.2,-149.86,U1.POWER,VSS,GND,,,"/>
+<approved hash="104,1,45.72,-154.94,U1.POWER,VDD,3.3V,,,"/>
+<approved hash="104,1,45.72,-157.48,U1.POWER,VDD,3.3V,,,"/>
+<approved hash="104,1,45.72,-160.02,U1.POWER,VDD,3.3V,,,"/>
+<approved hash="104,1,76.2,-152.4,U1.POWER,VSS,GND,,,"/>
+<approved hash="104,1,45.72,-162.56,U1.POWER,VDD,3.3V,,,"/>
 <approved hash="104,1,121.92,55.88,U2,VDD,3.3V,,,"/>
 <approved hash="202,1,38.1,111.76,XBEE,RESET,,,,"/>
 <approved hash="202,1,78.74,111.76,XBEE,RTS,,,,"/>
 <approved hash="104,1,38.1,121.92,XBEE,VDD,3.3V,,,"/>
+<approved hash="106,1,53.34,170.18,OTG-HS-ID,,,,,"/>
+<approved hash="106,1,83.82,205.74,SPISS-UNUSED,,,,,"/>
 </errors>
 </schematic>
 </drawing>
