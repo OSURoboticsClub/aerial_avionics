@@ -5620,6 +5620,23 @@ the XBee deasserts KILL.</text>
 <label x="223.52" y="-419.1" size="1.778" layer="95"/>
 <pinref part="TP2" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="Q4" gate="A" pin="G"/>
+<pinref part="Q4" gate="B" pin="G"/>
+<wire x1="345.44" y1="180.34" x2="345.44" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="167.64" x2="322.58" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="167.64" x2="322.58" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="167.64" x2="345.44" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="A" pin="G"/>
+<wire x1="368.3" y1="180.34" x2="368.3" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="167.64" x2="391.16" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="B" pin="G"/>
+<wire x1="391.16" y1="167.64" x2="391.16" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="167.64" x2="312.42" y2="167.64" width="0.1524" layer="91"/>
+<junction x="322.58" y="167.64"/>
+<junction x="345.44" y="167.64"/>
+<junction x="368.3" y="167.64"/>
+</segment>
 </net>
 <net name="TIM3-CH4-STSB" class="0">
 <segment>
@@ -6638,25 +6655,6 @@ the XBee deasserts KILL.</text>
 <wire x1="241.3" y1="200.66" x2="241.3" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="195.58" x2="238.76" y2="195.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="KILL1" class="0">
-<segment>
-<pinref part="Q4" gate="A" pin="G"/>
-<pinref part="Q4" gate="B" pin="G"/>
-<wire x1="345.44" y1="180.34" x2="345.44" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="167.64" x2="322.58" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="167.64" x2="322.58" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="167.64" x2="345.44" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="A" pin="G"/>
-<wire x1="368.3" y1="180.34" x2="368.3" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="167.64" x2="391.16" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="B" pin="G"/>
-<wire x1="391.16" y1="167.64" x2="391.16" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="167.64" x2="312.42" y2="167.64" width="0.1524" layer="91"/>
-<junction x="322.58" y="167.64"/>
-<junction x="345.44" y="167.64"/>
-<junction x="368.3" y="167.64"/>
 </segment>
 </net>
 <net name="VIN" class="0">
