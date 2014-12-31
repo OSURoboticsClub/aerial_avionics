@@ -752,6 +752,16 @@ Pads extend 0.02" farther than recommended for easy hand-solderability.</descrip
 </package>
 </packages>
 </library>
+<library name="OSURC_Passives">
+<packages>
+<package name="PAD.15X.08">
+<smd name="1" x="0" y="0" dx="3.81" dy="2.032" layer="1"/>
+</package>
+<package name="PAD-.03C">
+<smd name="1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1096,6 +1106,45 @@ design rules under a new name.</description>
 <element name="J8" library="aerial" package="MOLEX-2MM-MICROLATCH-2POS-RA" value="MOLEX-2POS" x="-265.43" y="-595.63"/>
 <element name="J12" library="aerial" package="MOLEX-2MM-MICROLATCH-2POS-RA" value="MOLEX-2POS" x="-273.05" y="-595.63"/>
 <element name="J15" library="aerial" package="MOLEX-2MM-MICROLATCH-2POS-RA" value="MOLEX-2POS" x="-280.67" y="-595.63"/>
+<element name="TP1" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="-280.67" y="-601.98">
+<attribute name="DIGIKEY_PN" value="5019KCT-ND" x="-280.67" y="-601.98" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP2" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="-280.67" y="-604.52">
+<attribute name="DIGIKEY_PN" value="5019KCT-ND" x="-280.67" y="-604.52" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP3" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="-280.67" y="-607.06">
+<attribute name="DIGIKEY_PN" value="5019KCT-ND" x="-280.67" y="-607.06" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP7" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="-280.67" y="-609.6">
+<attribute name="DIGIKEY_PN" value="5019KCT-ND" x="-280.67" y="-609.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP8" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="-280.67" y="-612.14">
+<attribute name="DIGIKEY_PN" value="5019KCT-ND" x="-280.67" y="-612.14" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP9" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="-280.67" y="-614.68">
+<attribute name="DIGIKEY_PN" value="5019KCT-ND" x="-280.67" y="-614.68" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP10" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="-280.67" y="-617.22">
+<attribute name="DIGIKEY_PN" value="5019KCT-ND" x="-280.67" y="-617.22" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP11" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="-280.67" y="-619.76">
+<attribute name="DIGIKEY_PN" value="5019KCT-ND" x="-280.67" y="-619.76" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP12" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="-280.67" y="-622.3">
+<attribute name="DIGIKEY_PN" value="5019KCT-ND" x="-280.67" y="-622.3" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP13" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="-280.67" y="-624.84">
+<attribute name="DIGIKEY_PN" value="5019KCT-ND" x="-280.67" y="-624.84" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP14" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="-280.67" y="-627.38">
+<attribute name="DIGIKEY_PN" value="5019KCT-ND" x="-280.67" y="-627.38" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP4" library="OSURC_Passives" package="PAD-.03C" value="TEST-POINT-PAD.03C" x="-281.94" y="-629.92"/>
+<element name="TP5" library="OSURC_Passives" package="PAD-.03C" value="TEST-POINT-PAD.03C" x="-281.94" y="-632.46"/>
+<element name="TP6" library="OSURC_Passives" package="PAD-.03C" value="TEST-POINT-PAD.03C" x="-281.94" y="-635"/>
+<element name="TP15" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="-280.67" y="-637.54">
+<attribute name="DIGIKEY_PN" value="5019KCT-ND" x="-280.67" y="-637.54" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1384,12 +1433,14 @@ design rules under a new name.</description>
 <contactref element="Q2" pad="2"/>
 <contactref element="Q2" pad="5"/>
 <contactref element="R3" pad="1"/>
+<contactref element="TP2" pad="1"/>
 <wire x1="22.8" y1="78.17" x2="-27.55" y2="-219.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-223.27" y1="-560.7" x2="22.8" y2="78.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-223.27" y1="-560.7" x2="-27.55" y2="-219.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-224.73" y1="-560.7" x2="-223.27" y2="-560.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-224.73" y1="-571.7" x2="-224.73" y2="-560.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-223.27" y1="-571.7" x2="-224.73" y2="-571.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-224.65" y1="-582.2" x2="-224.73" y2="-571.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-280.67" y1="-604.52" x2="-224.65" y2="-582.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART4-TX">
 <contactref element="U1" pad="14"/>
@@ -1489,15 +1540,19 @@ design rules under a new name.</description>
 <contactref element="U1" pad="55"/>
 <contactref element="U2" pad="8"/>
 <contactref element="U3" pad="23"/>
-<wire x1="-186.2" y1="-460.525" x2="21.97" y2="23.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-250.65" y1="-592.9" x2="-186.2" y2="-460.525" width="0" layer="19" extent="1-1"/>
+<contactref element="TP4" pad="1"/>
+<wire x1="-250.65" y1="-592.9" x2="-281.94" y2="-629.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-186.2" y1="-460.525" x2="-250.65" y2="-592.9" width="0" layer="19" extent="1-1"/>
+<wire x1="21.97" y1="23.99" x2="-186.2" y2="-460.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI1-MOSI">
 <contactref element="U1" pad="57"/>
 <contactref element="U2" pad="7"/>
 <contactref element="U3" pad="24"/>
-<wire x1="-186.2" y1="-461.775" x2="20.97" y2="23.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-251.15" y1="-592.9" x2="-186.2" y2="-461.775" width="0" layer="19" extent="1-1"/>
+<contactref element="TP6" pad="1"/>
+<wire x1="-251.15" y1="-592.9" x2="-281.94" y2="-635" width="0" layer="19" extent="1-1"/>
+<wire x1="-186.2" y1="-461.775" x2="-251.15" y2="-592.9" width="0" layer="19" extent="1-1"/>
+<wire x1="20.97" y1="23.99" x2="-186.2" y2="-461.775" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI2-SCK">
 <contactref element="U1" pad="34"/>
@@ -1507,15 +1562,19 @@ design rules under a new name.</description>
 <signal name="OTG-HS-DP">
 <contactref element="U1" pad="36"/>
 <contactref element="JP1" pad="D+"/>
-<wire x1="-38.7" y1="-350.45" x2="27.17" y2="15.79" width="0" layer="19" extent="1-1"/>
+<contactref element="TP8" pad="1"/>
+<wire x1="-280.67" y1="-612.14" x2="-38.7" y2="-350.45" width="0" layer="19" extent="1-1"/>
+<wire x1="27.17" y1="15.79" x2="-38.7" y2="-350.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI1-MISO">
 <contactref element="U1" pad="56"/>
 <contactref element="U2" pad="6"/>
 <contactref element="R30" pad="1"/>
 <contactref element="U3" pad="9"/>
+<contactref element="TP5" pad="1"/>
 <wire x1="-186.2" y1="-463.025" x2="-188.35" y2="-493.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-250.15" y1="-596.9" x2="-188.35" y2="-493.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-281.94" y1="-632.46" x2="-250.15" y2="-596.9" width="0" layer="19" extent="1-1"/>
 <wire x1="21.47" y1="23.99" x2="-186.2" y2="-463.025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OTG-HS-ID">
@@ -1524,7 +1583,9 @@ design rules under a new name.</description>
 <signal name="OTG-HS-DM">
 <contactref element="U1" pad="35"/>
 <contactref element="JP1" pad="D-"/>
-<wire x1="-39.35" y1="-350.45" x2="27.17" y2="15.29" width="0" layer="19" extent="1-1"/>
+<contactref element="TP7" pad="1"/>
+<wire x1="-280.67" y1="-609.6" x2="-39.35" y2="-350.45" width="0" layer="19" extent="1-1"/>
+<wire x1="27.17" y1="15.29" x2="-39.35" y2="-350.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI2-MISO">
 <contactref element="U1" pad="10"/>
@@ -1551,16 +1612,22 @@ design rules under a new name.</description>
 <signal name="SDIO-D2">
 <contactref element="U1" pad="51"/>
 <contactref element="U5" pad="1"/>
+<contactref element="TP11" pad="1"/>
+<wire x1="23.97" y1="23.99" x2="-280.67" y2="-619.76" width="0" layer="19" extent="1-1"/>
 <wire x1="41.36" y1="31.47" x2="23.97" y2="23.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO-D3">
 <contactref element="U1" pad="52"/>
 <contactref element="U5" pad="2"/>
+<contactref element="TP12" pad="1"/>
+<wire x1="23.47" y1="23.99" x2="-280.67" y2="-622.3" width="0" layer="19" extent="1-1"/>
 <wire x1="42.46" y1="31.07" x2="23.47" y2="23.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO-CK">
 <contactref element="U1" pad="53"/>
 <contactref element="U5" pad="5"/>
+<contactref element="TP13" pad="1"/>
+<wire x1="22.97" y1="23.99" x2="-280.67" y2="-624.84" width="0" layer="19" extent="1-1"/>
 <wire x1="45.76" y1="31.47" x2="22.97" y2="23.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPISS-MS5611">
@@ -1578,6 +1645,8 @@ design rules under a new name.</description>
 <signal name="SDIO-CMD">
 <contactref element="U1" pad="54"/>
 <contactref element="U5" pad="3"/>
+<contactref element="TP14" pad="1"/>
+<wire x1="22.47" y1="23.99" x2="-280.67" y2="-627.38" width="0" layer="19" extent="1-1"/>
 <wire x1="43.56" y1="31.47" x2="22.47" y2="23.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OSC-IN">
@@ -1611,11 +1680,15 @@ design rules under a new name.</description>
 <signal name="SDIO-D0">
 <contactref element="U1" pad="39"/>
 <contactref element="U5" pad="7"/>
+<contactref element="TP9" pad="1"/>
+<wire x1="27.17" y1="17.29" x2="-280.67" y2="-614.68" width="0" layer="19" extent="1-1"/>
 <wire x1="47.96" y1="31.47" x2="27.17" y2="17.29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO-D1">
 <contactref element="U1" pad="40"/>
 <contactref element="U5" pad="8"/>
+<contactref element="TP10" pad="1"/>
+<wire x1="27.17" y1="17.79" x2="-280.67" y2="-617.22" width="0" layer="19" extent="1-1"/>
 <wire x1="49.06" y1="31.47" x2="27.17" y2="17.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="F4-VCAP-1">
@@ -1796,8 +1869,10 @@ design rules under a new name.</description>
 <contactref element="U1" pad="22"/>
 <contactref element="R12" pad="1"/>
 <contactref element="XBEE" pad="6"/>
+<contactref element="TP3" pad="1"/>
 <wire x1="19.97" y1="12.09" x2="-30.65" y2="-219.5" width="0" layer="19" extent="1-1"/>
-<wire x1="3.8" y1="68.17" x2="-30.65" y2="-219.5" width="0" layer="19" extent="1-1"/>
+<wire x1="3.8" y1="68.17" x2="19.97" y2="12.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-280.67" y1="-607.06" x2="-30.65" y2="-219.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="LED8" pad="C1"/>
@@ -1876,6 +1951,11 @@ design rules under a new name.</description>
 <contactref element="C17" pad="1"/>
 <contactref element="U3" pad="10"/>
 <wire x1="-244.25" y1="-595" x2="-249.65" y2="-596.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BOOT0">
+<contactref element="U1" pad="60"/>
+<contactref element="TP1" pad="1"/>
+<wire x1="19.47" y1="23.99" x2="-280.67" y2="-601.98" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
