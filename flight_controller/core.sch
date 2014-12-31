@@ -3599,7 +3599,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="6" x="1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
 <smd name="7" x="1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
 <smd name="8" x="1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
-<text x="-1.5" y="3" size="1" layer="25">&gt;name</text>
+<text x="-1.5" y="3" size="0.762" layer="25">&gt;name</text>
 </package>
 <package name="QFN-24-NP">
 <wire x1="1.65" y1="-2" x2="2" y2="-2" width="0.2032" layer="21"/>
@@ -3644,8 +3644,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="22" x="-0.25" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
 <smd name="23" x="-0.75" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
 <smd name="24" x="-1.25" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<text x="-2.45" y="2.8" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.5" y="-4.15" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.4" y="2.8" size="0.762" layer="25">&gt;name</text>
 <text x="1.1176" y="-1.1938" size="0.4064" layer="51">X</text>
 <text x="-1.2192" y="0.6604" size="0.4064" layer="51">Y</text>
 <text x="0" y="0.8636" size="0.4064" layer="51">Z</text>
