@@ -4505,7 +4505,6 @@ FQP27P06 -
 <part name="LED3" library="SparkFun-LED" deviceset="LED" device="0603" value="BLUE"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="USB" device="-MICROB"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R34" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K"/>
@@ -4652,6 +4651,7 @@ FQP27P06 -
 <part name="J19" library="OSURC_Connectors" deviceset="M04" device=""/>
 <part name="J21" library="OSURC_Connectors" deviceset="M04" device=""/>
 <part name="J2" library="OSURC_Connectors" deviceset="M02" device=""/>
+<part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VIN" device="" value="5Vin"/>
 </parts>
 <sheets>
 <sheet>
@@ -4747,7 +4747,6 @@ the XBee deasserts KILL.</text>
 <instance part="LED3" gate="G$1" x="154.94" y="228.6" rot="R90"/>
 <instance part="JP1" gate="G$1" x="106.68" y="-586.74"/>
 <instance part="GND10" gate="1" x="99.06" y="-594.36"/>
-<instance part="SUPPLY12" gate="G$1" x="99.06" y="-574.04"/>
 <instance part="SUPPLY15" gate="G$1" x="40.64" y="-574.04"/>
 <instance part="GND11" gate="1" x="40.64" y="-622.3"/>
 <instance part="R34" gate="G$1" x="17.78" y="-604.52" rot="R90"/>
@@ -4905,6 +4904,7 @@ the XBee deasserts KILL.</text>
 <instance part="J19" gate="G$1" x="175.26" y="-508"/>
 <instance part="J21" gate="G$1" x="149.86" y="-579.12"/>
 <instance part="J2" gate="G$1" x="78.74" y="-416.56"/>
+<instance part="SUPPLY1" gate="G$1" x="99.06" y="-574.04"/>
 </instances>
 <busses>
 </busses>
@@ -5371,12 +5371,6 @@ the XBee deasserts KILL.</text>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="228.6" x2="132.08" y2="228.6" width="0.1524" layer="91"/>
 <label x="132.08" y="228.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="VBUS"/>
-<wire x1="104.14" y1="-584.2" x2="99.06" y2="-584.2" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="-584.2" x2="99.06" y2="-574.04" width="0.1524" layer="91"/>
-<pinref part="SUPPLY12" gate="G$1" pin="5V"/>
 </segment>
 <segment>
 <wire x1="170.18" y1="-502.92" x2="167.64" y2="-502.92" width="0.1524" layer="91"/>
@@ -6671,6 +6665,12 @@ the XBee deasserts KILL.</text>
 <wire x1="134.62" y1="-86.36" x2="139.7" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="134.62" y="-86.36"/>
 <pinref part="D1" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="VBUS"/>
+<wire x1="104.14" y1="-584.2" x2="99.06" y2="-584.2" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-584.2" x2="99.06" y2="-574.04" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="G$1" pin="VIN"/>
 </segment>
 </net>
 <net name="MPU9250-REGOUT" class="0">
