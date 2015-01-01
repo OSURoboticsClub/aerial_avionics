@@ -4635,12 +4635,10 @@ FQP27P06 -
 <part name="J10" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J13" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J7" library="OSURC_Connectors" deviceset="M02" device=""/>
-<part name="J11" library="OSURC_Connectors" deviceset="M02" device=""/>
-<part name="J14" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J3" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J8" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J12" library="OSURC_Connectors" deviceset="M02" device=""/>
-<part name="J15" library="OSURC_Connectors" deviceset="M02" device=""/>
+<part name="J14" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J5" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J4" library="OSURC_Connectors" deviceset="M03" device=""/>
 <part name="J9" library="OSURC_Connectors" deviceset="M03" device=""/>
@@ -4652,6 +4650,9 @@ FQP27P06 -
 <part name="J21" library="OSURC_Connectors" deviceset="M04" device=""/>
 <part name="J2" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VIN" device="" value="5Vin"/>
+<part name="J11" library="OSURC_Connectors" deviceset="M03" device=""/>
+<part name="J15" library="OSURC_Connectors" deviceset="M03" device=""/>
+<part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4721,7 +4722,7 @@ the XBee deasserts KILL.</text>
 <instance part="GND2" gate="1" x="190.5" y="-447.04"/>
 <instance part="SUPPLY4" gate="G$1" x="190.5" y="-414.02"/>
 <instance part="GND4" gate="1" x="33.02" y="-462.28"/>
-<instance part="GND5" gate="1" x="71.12" y="-462.28"/>
+<instance part="GND5" gate="1" x="73.66" y="-467.36"/>
 <instance part="GND7" gate="1" x="127" y="-528.32"/>
 <instance part="U5" gate="G$1" x="53.34" y="-594.36"/>
 <instance part="U1" gate=".GPIO" x="68.58" y="203.2"/>
@@ -4887,13 +4888,11 @@ the XBee deasserts KILL.</text>
 <instance part="J6" gate="G$1" x="40.64" y="-429.26"/>
 <instance part="J10" gate="G$1" x="40.64" y="-441.96"/>
 <instance part="J13" gate="G$1" x="40.64" y="-454.66"/>
-<instance part="J7" gate="G$1" x="78.74" y="-429.26"/>
-<instance part="J11" gate="G$1" x="78.74" y="-441.96"/>
-<instance part="J14" gate="G$1" x="78.74" y="-454.66"/>
+<instance part="J7" gate="G$1" x="81.28" y="-429.26"/>
 <instance part="J3" gate="G$1" x="116.84" y="-416.56"/>
 <instance part="J8" gate="G$1" x="116.84" y="-429.26"/>
 <instance part="J12" gate="G$1" x="116.84" y="-441.96"/>
-<instance part="J15" gate="G$1" x="116.84" y="-454.66"/>
+<instance part="J14" gate="G$1" x="116.84" y="-454.66"/>
 <instance part="J5" gate="G$1" x="358.14" y="-421.64"/>
 <instance part="J4" gate="G$1" x="200.66" y="-421.64"/>
 <instance part="J9" gate="G$1" x="200.66" y="-436.88"/>
@@ -4903,8 +4902,11 @@ the XBee deasserts KILL.</text>
 <instance part="J18" gate="G$1" x="35.56" y="-502.92"/>
 <instance part="J19" gate="G$1" x="175.26" y="-508"/>
 <instance part="J21" gate="G$1" x="149.86" y="-579.12"/>
-<instance part="J2" gate="G$1" x="78.74" y="-416.56"/>
+<instance part="J2" gate="G$1" x="81.28" y="-416.56"/>
 <instance part="SUPPLY1" gate="G$1" x="99.06" y="-574.04"/>
+<instance part="J11" gate="G$1" x="81.28" y="-441.96"/>
+<instance part="J15" gate="G$1" x="81.28" y="-457.2"/>
+<instance part="SUPPLY12" gate="G$1" x="71.12" y="-436.88"/>
 </instances>
 <busses>
 </busses>
@@ -4951,22 +4953,22 @@ the XBee deasserts KILL.</text>
 <pinref part="J13" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="-416.56" x2="71.12" y2="-416.56" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-454.66" x2="71.12" y2="-454.66" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="-416.56" x2="71.12" y2="-429.26" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="-429.26" x2="71.12" y2="-441.96" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="-441.96" x2="71.12" y2="-454.66" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-429.26" x2="71.12" y2="-429.26" width="0.1524" layer="91"/>
-<junction x="71.12" y="-429.26"/>
-<wire x1="73.66" y1="-441.96" x2="71.12" y2="-441.96" width="0.1524" layer="91"/>
-<junction x="71.12" y="-441.96"/>
+<wire x1="76.2" y1="-416.56" x2="73.66" y2="-416.56" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-459.74" x2="73.66" y2="-459.74" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-416.56" x2="73.66" y2="-429.26" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-429.26" x2="73.66" y2="-444.5" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-444.5" x2="73.66" y2="-459.74" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-429.26" x2="73.66" y2="-429.26" width="0.1524" layer="91"/>
+<junction x="73.66" y="-429.26"/>
+<wire x1="76.2" y1="-444.5" x2="73.66" y2="-444.5" width="0.1524" layer="91"/>
+<junction x="73.66" y="-444.5"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="71.12" y1="-454.66" x2="71.12" y2="-459.74" width="0.1524" layer="91"/>
-<junction x="71.12" y="-454.66"/>
+<wire x1="73.66" y1="-459.74" x2="73.66" y2="-464.82" width="0.1524" layer="91"/>
+<junction x="73.66" y="-459.74"/>
 <pinref part="J7" gate="G$1" pin="2"/>
-<pinref part="J11" gate="G$1" pin="2"/>
-<pinref part="J14" gate="G$1" pin="2"/>
 <pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J11" gate="G$1" pin="3"/>
+<pinref part="J15" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="-520.7" x2="127" y2="-520.7" width="0.1524" layer="91"/>
@@ -5283,7 +5285,7 @@ the XBee deasserts KILL.</text>
 <pinref part="J3" gate="G$1" pin="2"/>
 <pinref part="J8" gate="G$1" pin="2"/>
 <pinref part="J12" gate="G$1" pin="2"/>
-<pinref part="J15" gate="G$1" pin="2"/>
+<pinref part="J14" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="UART4-TX" class="0">
@@ -5419,6 +5421,16 @@ the XBee deasserts KILL.</text>
 <junction x="190.5" y="-421.64"/>
 <pinref part="J4" gate="G$1" pin="2"/>
 <pinref part="J9" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="J11" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="-441.96" x2="71.12" y2="-441.96" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-441.96" x2="71.12" y2="-436.88" width="0.1524" layer="91"/>
+<pinref part="J15" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="-457.2" x2="71.12" y2="-457.2" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-457.2" x2="71.12" y2="-441.96" width="0.1524" layer="91"/>
+<junction x="71.12" y="-441.96"/>
+<pinref part="SUPPLY12" gate="G$1" pin="5V"/>
 </segment>
 </net>
 <net name="ADC1-IN" class="0">
@@ -5889,7 +5901,7 @@ the XBee deasserts KILL.</text>
 <segment>
 <wire x1="111.76" y1="-452.12" x2="101.6" y2="-452.12" width="0.1524" layer="91"/>
 <label x="101.6" y="-452.12" size="1.778" layer="95"/>
-<pinref part="J15" gate="G$1" pin="1"/>
+<pinref part="J14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SDIO-D2" class="0">
@@ -6334,7 +6346,7 @@ the XBee deasserts KILL.</text>
 </net>
 <net name="TIM4-CH1-K" class="0">
 <segment>
-<wire x1="73.66" y1="-414.02" x2="53.34" y2="-414.02" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-414.02" x2="53.34" y2="-414.02" width="0.1524" layer="91"/>
 <label x="53.34" y="-414.02" size="1.778" layer="95"/>
 <pinref part="J2" gate="G$1" pin="1"/>
 </segment>
@@ -6350,7 +6362,7 @@ the XBee deasserts KILL.</text>
 </net>
 <net name="TIM4-CH2-K" class="0">
 <segment>
-<wire x1="73.66" y1="-426.72" x2="53.34" y2="-426.72" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-426.72" x2="53.34" y2="-426.72" width="0.1524" layer="91"/>
 <label x="53.34" y="-426.72" size="1.778" layer="95"/>
 <pinref part="J7" gate="G$1" pin="1"/>
 </segment>
@@ -6366,7 +6378,7 @@ the XBee deasserts KILL.</text>
 </net>
 <net name="TIM4-CH3-K" class="0">
 <segment>
-<wire x1="73.66" y1="-439.42" x2="53.34" y2="-439.42" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-439.42" x2="53.34" y2="-439.42" width="0.1524" layer="91"/>
 <label x="53.34" y="-439.42" size="1.778" layer="95"/>
 <pinref part="J11" gate="G$1" pin="1"/>
 </segment>
@@ -6382,9 +6394,9 @@ the XBee deasserts KILL.</text>
 </net>
 <net name="TIM4-CH4-K" class="0">
 <segment>
-<wire x1="73.66" y1="-452.12" x2="53.34" y2="-452.12" width="0.1524" layer="91"/>
-<label x="53.34" y="-452.12" size="1.778" layer="95"/>
-<pinref part="J14" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="-454.66" x2="53.34" y2="-454.66" width="0.1524" layer="91"/>
+<label x="53.34" y="-454.66" size="1.778" layer="95"/>
+<pinref part="J15" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <label x="403.86" y="187.96" size="1.778" layer="95"/>
