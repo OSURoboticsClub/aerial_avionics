@@ -2480,9 +2480,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="7" x="2.775" y="0.635" dx="0.65" dy="0.5" layer="1"/>
 <smd name="8" x="2.775" y="1.905" dx="0.65" dy="0.5" layer="1"/>
 <circle x="-3.1" y="2.9" radius="0.14141875" width="0.127" layer="21"/>
-<rectangle x1="-1.6" y1="0.3" x2="2.52" y2="2.3" layer="1"/>
-<rectangle x1="-1.6" y1="-2.3" x2="2.52" y2="-0.3" layer="1"/>
 <text x="-2.7" y="2.9" size="1.27" layer="25">&gt;name</text>
+<smd name="9" x="0.46" y="1.3" dx="4.12" dy="2" layer="1"/>
+<smd name="10" x="0.46" y="-1.3" dx="4.12" dy="2" layer="1"/>
 </package>
 <package name="SMAJ">
 <description>Bourns SMAJ TVS diode series (http://www.bourns.com/data/global/pdfs/SMAJ.pdf)
@@ -2662,7 +2662,7 @@ FQP27P06 -
 <devices>
 <device name="-AON6407" package="DFN5X6">
 <connects>
-<connect gate="G$1" pin="D" pad="5 6 7 8"/>
+<connect gate="G$1" pin="D" pad="5 6 7 8 9 10"/>
 <connect gate="G$1" pin="G" pad="4"/>
 <connect gate="G$1" pin="S" pad="1 2 3"/>
 </connects>
@@ -3405,11 +3405,11 @@ Pad size and stop size allow for a #4 Phillips pan screw head to make a solid co
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY23" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="TP1" library="OSURC_Passives" deviceset="TEST-POINT" device="-KEYSTONE-5019"/>
+<part name="TP1" library="OSURC_Passives" deviceset="TEST-POINT" device="-PAD.03C" value="TEST-POINT-PAD.03C"/>
 <part name="TP2" library="OSURC_Passives" deviceset="TEST-POINT" device="-KEYSTONE-5019"/>
 <part name="TP3" library="OSURC_Passives" deviceset="TEST-POINT" device="-KEYSTONE-5019"/>
-<part name="TP7" library="OSURC_Passives" deviceset="TEST-POINT" device="-KEYSTONE-5019"/>
-<part name="TP8" library="OSURC_Passives" deviceset="TEST-POINT" device="-KEYSTONE-5019"/>
+<part name="TP7" library="OSURC_Passives" deviceset="TEST-POINT" device="-PAD.03C" value="TEST-POINT-PAD.03C"/>
+<part name="TP8" library="OSURC_Passives" deviceset="TEST-POINT" device="-PAD.03C" value="TEST-POINT-PAD.03C"/>
 <part name="TP9" library="OSURC_Passives" deviceset="TEST-POINT" device="-KEYSTONE-5019"/>
 <part name="TP10" library="OSURC_Passives" deviceset="TEST-POINT" device="-KEYSTONE-5019"/>
 <part name="TP11" library="OSURC_Passives" deviceset="TEST-POINT" device="-KEYSTONE-5019"/>
@@ -3419,7 +3419,6 @@ Pad size and stop size allow for a #4 Phillips pan screw head to make a solid co
 <part name="TP4" library="OSURC_Passives" deviceset="TEST-POINT" device="-PAD.03C"/>
 <part name="TP5" library="OSURC_Passives" deviceset="TEST-POINT" device="-PAD.03C"/>
 <part name="TP6" library="OSURC_Passives" deviceset="TEST-POINT" device="-PAD.03C"/>
-<part name="TP15" library="OSURC_Passives" deviceset="TEST-POINT" device="-KEYSTONE-5019"/>
 <part name="J6" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J10" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="J13" library="OSURC_Connectors" deviceset="M02" device=""/>
@@ -3679,7 +3678,6 @@ the XBee deasserts KILL.</text>
 <instance part="TP4" gate="G$1" x="246.38" y="-434.34"/>
 <instance part="TP5" gate="G$1" x="246.38" y="-441.96"/>
 <instance part="TP6" gate="G$1" x="246.38" y="-449.58"/>
-<instance part="TP15" gate="G$1" x="246.38" y="-518.16"/>
 <instance part="J6" gate="G$1" x="40.64" y="-429.26"/>
 <instance part="J10" gate="G$1" x="40.64" y="-441.96"/>
 <instance part="J13" gate="G$1" x="40.64" y="-454.66"/>
@@ -4824,11 +4822,6 @@ the XBee deasserts KILL.</text>
 <wire x1="104.14" y1="195.58" x2="109.22" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="193.04" x2="104.14" y2="195.58" width="0.1524" layer="91"/>
 <junction x="104.14" y="195.58"/>
-</segment>
-<segment>
-<wire x1="223.52" y1="-518.16" x2="246.38" y2="-518.16" width="0.1524" layer="91"/>
-<label x="223.52" y="-518.16" size="1.778" layer="95"/>
-<pinref part="TP15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OSC-OUT" class="0">
