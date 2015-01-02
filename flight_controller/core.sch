@@ -3312,7 +3312,7 @@ Pad size and stop size allow for a #4 Phillips pan screw head to make a solid co
 <part name="C15" library="OSURC_Passives" deviceset="CAP" device="-100NF-16V-10%(0603)" value="100nF"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C13" library="OSURC_Passives" deviceset="CAP" device="-100NF-16V-10%(0603)" value="100nF"/>
+<part name="C13" library="OSURC_Passives" deviceset="CAP" device="-10UF-10V-10%(0805)" value="10uF"/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C7" library="OSURC_Passives" deviceset="CAP" device="-100NF-16V-10%(0603)" value="100nF"/>
@@ -3791,7 +3791,6 @@ the XBee deasserts KILL.</text>
 <wire x1="40.64" y1="-177.8" x2="33.02" y2="-177.8" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-177.8" x2="25.4" y2="-177.8" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-177.8" x2="17.78" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="-177.8" x2="17.78" y2="-167.64" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-175.26" x2="88.9" y2="-177.8" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="-175.26" x2="81.28" y2="-177.8" width="0.1524" layer="91"/>
 <junction x="81.28" y="-177.8"/>
@@ -3799,7 +3798,6 @@ the XBee deasserts KILL.</text>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="60.96" y1="-180.34" x2="60.96" y2="-177.8" width="0.1524" layer="91"/>
 <junction x="60.96" y="-177.8"/>
-<pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <pinref part="U1" gate=".POWER" pin="VSSA"/>
@@ -3819,6 +3817,8 @@ the XBee deasserts KILL.</text>
 <junction x="40.64" y="-177.8"/>
 <junction x="33.02" y="-177.8"/>
 <junction x="25.4" y="-177.8"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="-177.8" x2="17.78" y2="-175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="43.18" y1="-109.22" x2="43.18" y2="-111.76" width="0.1524" layer="91"/>
@@ -4349,8 +4349,6 @@ the XBee deasserts KILL.</text>
 <wire x1="40.64" y1="-162.56" x2="33.02" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-162.56" x2="25.4" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-162.56" x2="17.78" y2="-162.56" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="-175.26" x2="17.78" y2="-162.56" width="0.1524" layer="91"/>
 <junction x="43.18" y="-162.56"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="-167.64" x2="40.64" y2="-162.56" width="0.1524" layer="91"/>
@@ -4361,6 +4359,8 @@ the XBee deasserts KILL.</text>
 <junction x="25.4" y="-162.56"/>
 <junction x="33.02" y="-162.56"/>
 <junction x="40.64" y="-162.56"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="-167.64" x2="17.78" y2="-162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="XBEE" gate="G$1" pin="VDD"/>
@@ -4445,8 +4445,6 @@ the XBee deasserts KILL.</text>
 </segment>
 <segment>
 <pinref part="Q4" gate="A" pin="G"/>
-<pinref part="Q4" gate="B" pin="G"/>
-<wire x1="345.44" y1="180.34" x2="345.44" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="167.64" x2="322.58" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="167.64" x2="322.58" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="167.64" x2="345.44" y2="167.64" width="0.1524" layer="91"/>
@@ -4457,8 +4455,10 @@ the XBee deasserts KILL.</text>
 <wire x1="391.16" y1="167.64" x2="391.16" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="167.64" x2="312.42" y2="167.64" width="0.1524" layer="91"/>
 <junction x="322.58" y="167.64"/>
-<junction x="345.44" y="167.64"/>
 <junction x="368.3" y="167.64"/>
+<pinref part="Q4" gate="B" pin="G"/>
+<wire x1="345.44" y1="167.64" x2="345.44" y2="180.34" width="0.1524" layer="91"/>
+<junction x="345.44" y="167.64"/>
 </segment>
 </net>
 <net name="TIM3-CH4-STSB" class="0">
