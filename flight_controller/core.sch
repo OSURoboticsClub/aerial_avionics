@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3312,7 +3312,7 @@ Pad size and stop size allow for a #4 Phillips pan screw head to make a solid co
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R34" library="OSURC_Passives" deviceset="RES" device="-1KOHM-0.1W-5%(0603)" value="1k"/>
+<part name="R37" library="OSURC_Passives" deviceset="RES" device="-1KOHM-0.1W-5%(0603)" value="1k"/>
 <part name="SUPPLY16" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="S1" library="OSURC_Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="-PTS525"/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
@@ -3462,10 +3462,10 @@ Pad size and stop size allow for a #4 Phillips pan screw head to make a solid co
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C3" library="OSURC_Passives" deviceset="CAP" device="-10UF-10V-10%(0805)" value="10uF"/>
 <part name="C5" library="OSURC_Passives" deviceset="CAP" device="-10UF-10V-10%(0805)" value="10uF"/>
-<part name="R37" library="OSURC_Passives" deviceset="RES" device="-1.5KOHM-0.1W-5%(0603)" value="1.5k"/>
+<part name="R34" library="OSURC_Passives" deviceset="RES" device="-1.5KOHM-0.1W-5%(0603)" value="1.5k"/>
 <part name="SUPPLY24" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="R38" library="OSURC_Passives" deviceset="RES" device="-22OHM-0.1W-5%(0603)" value="22"/>
-<part name="R39" library="OSURC_Passives" deviceset="RES" device="-22OHM-0.1W-5%(0603)" value="22"/>
+<part name="R35" library="OSURC_Passives" deviceset="RES" device="-22OHM-0.1W-5%(0603)" value="22"/>
+<part name="R36" library="OSURC_Passives" deviceset="RES" device="-22OHM-0.1W-5%(0603)" value="22"/>
 </parts>
 <sheets>
 <sheet>
@@ -3564,7 +3564,7 @@ the XBee deasserts KILL.</text>
 <instance part="GND10" gate="1" x="175.26" y="-604.52"/>
 <instance part="SUPPLY15" gate="G$1" x="40.64" y="-574.04"/>
 <instance part="GND11" gate="1" x="40.64" y="-622.3"/>
-<instance part="R34" gate="G$1" x="17.78" y="-604.52" rot="R90"/>
+<instance part="R37" gate="G$1" x="17.78" y="-604.52" rot="R90"/>
 <instance part="SUPPLY16" gate="G$1" x="17.78" y="-574.04"/>
 <instance part="S1" gate="G$1" x="111.76" y="154.94"/>
 <instance part="SUPPLY17" gate="G$1" x="119.38" y="167.64"/>
@@ -3725,10 +3725,10 @@ the XBee deasserts KILL.</text>
 <instance part="GND6" gate="1" x="363.22" y="-629.92"/>
 <instance part="C3" gate="G$1" x="17.78" y="-104.14"/>
 <instance part="C5" gate="G$1" x="71.12" y="-104.14"/>
-<instance part="R37" gate="G$1" x="142.24" y="-579.12" rot="R90"/>
+<instance part="R34" gate="G$1" x="142.24" y="-579.12" rot="R90"/>
 <instance part="SUPPLY24" gate="G$1" x="142.24" y="-574.04"/>
-<instance part="R38" gate="G$1" x="149.86" y="-589.28"/>
-<instance part="R39" gate="G$1" x="149.86" y="-596.9"/>
+<instance part="R35" gate="G$1" x="149.86" y="-589.28"/>
+<instance part="R36" gate="G$1" x="149.86" y="-596.9"/>
 </instances>
 <busses>
 </busses>
@@ -4309,7 +4309,7 @@ the XBee deasserts KILL.</text>
 <segment>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
 <wire x1="17.78" y1="-599.44" x2="17.78" y2="-574.04" width="0.1524" layer="91"/>
-<pinref part="R34" gate="G$1" pin="2"/>
+<pinref part="R37" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
@@ -4427,7 +4427,7 @@ the XBee deasserts KILL.</text>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="R37" gate="G$1" pin="2"/>
+<pinref part="R34" gate="G$1" pin="2"/>
 <pinref part="SUPPLY24" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
@@ -5214,7 +5214,7 @@ the XBee deasserts KILL.</text>
 <wire x1="45.72" y1="-607.06" x2="38.1" y2="-607.06" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-607.06" x2="38.1" y2="-612.14" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-612.14" x2="17.78" y2="-612.14" width="0.1524" layer="91"/>
-<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="R37" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="-612.14" x2="17.78" y2="-609.6" width="0.1524" layer="91"/>
 <label x="25.4" y="-612.14" size="1.778" layer="95"/>
 <junction x="38.1" y="-612.14"/>
@@ -5520,7 +5520,7 @@ the XBee deasserts KILL.</text>
 <wire x1="157.48" y1="-596.9" x2="154.94" y2="-596.9" width="0.1524" layer="91"/>
 <label x="157.48" y="-591.82" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="D-"/>
-<pinref part="R39" gate="G$1" pin="2"/>
+<pinref part="R36" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="-457.2" x2="223.52" y2="-457.2" width="0.1524" layer="91"/>
@@ -5533,7 +5533,7 @@ the XBee deasserts KILL.</text>
 <wire x1="180.34" y1="-589.28" x2="154.94" y2="-589.28" width="0.1524" layer="91"/>
 <label x="157.48" y="-589.28" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="D+"/>
-<pinref part="R38" gate="G$1" pin="2"/>
+<pinref part="R35" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="-464.82" x2="223.52" y2="-464.82" width="0.1524" layer="91"/>
@@ -5550,7 +5550,7 @@ the XBee deasserts KILL.</text>
 <segment>
 <wire x1="124.46" y1="-596.9" x2="144.78" y2="-596.9" width="0.1524" layer="91"/>
 <label x="124.46" y="-596.9" size="1.778" layer="95"/>
-<pinref part="R39" gate="G$1" pin="1"/>
+<pinref part="R36" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OTG-HS-D'_P" class="1">
@@ -5565,8 +5565,8 @@ the XBee deasserts KILL.</text>
 <wire x1="142.24" y1="-589.28" x2="144.78" y2="-589.28" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-589.28" x2="142.24" y2="-584.2" width="0.1524" layer="91"/>
 <junction x="142.24" y="-589.28"/>
-<pinref part="R37" gate="G$1" pin="1"/>
-<pinref part="R38" gate="G$1" pin="1"/>
+<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="R35" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
