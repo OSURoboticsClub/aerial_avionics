@@ -5587,6 +5587,7 @@ the XBee deasserts KILL.</text>
 <approved hash="202,1,78.74,111.76,XBEE,RTS,,,,"/>
 <approved hash="104,1,38.1,121.92,XBEE,VDD,3.3V,,,"/>
 <approved hash="106,1,83.82,205.74,SPISS-UNUSED,,,,,"/>
+<approved hash="115,1,334.01,167.64,KILL,,,,,"/>
 </errors>
 </schematic>
 </drawing>
