@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
@@ -129,8 +129,7 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="0" y2="46" width="0.05" layer="20"/>
-<wire x1="0" y1="46" x2="0" y2="48" width="0.05" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="48" width="0.05" layer="20"/>
 <wire x1="0" y1="48" x2="96" y2="48" width="0.05" layer="20"/>
 <wire x1="96" y1="48" x2="96" y2="0" width="0.05" layer="20"/>
 <wire x1="96" y1="0" x2="0" y2="0" width="0.05" layer="20"/>
@@ -704,6 +703,8 @@ Pads extend 0.02" farther than recommended for easy hand-solderability.</descrip
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="USB" width="0.6096" drill="0">
+</class>
 </classes>
 <designrules name="DFRobot_Eagle_Rule_v0.4">
 <description language="en">
@@ -1126,8 +1127,8 @@ design rules under a new name.</description>
 <element name="TP3" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="11" y="18" rot="MR0">
 <attribute name="DIGIKEY_PN" value="5019KCT-ND" x="11" y="18" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="TP7" library="OSURC_Passives" package="PAD-.03C" value="TEST-POINT-PAD.03C" x="88" y="23"/>
-<element name="TP8" library="OSURC_Passives" package="PAD-.03C" value="TEST-POINT-PAD.03C" x="88" y="24.5"/>
+<element name="TP7" library="OSURC_Passives" package="PAD-.03C" value="TEST-POINT-PAD.03C" x="83" y="23.35"/>
+<element name="TP8" library="OSURC_Passives" package="PAD-.03C" value="TEST-POINT-PAD.03C" x="81.5" y="24"/>
 <element name="TP9" library="OSURC_Passives" package="PAD.15X.08" value="TEST-POINT-KEYSTONE-5019" x="73.5" y="37.5">
 <attribute name="DIGIKEY_PN" value="5019KCT-ND" x="73.5" y="37.5" size="1.778" layer="27" display="off"/>
 </element>
@@ -1218,6 +1219,15 @@ design rules under a new name.</description>
 </element>
 <element name="C5" library="OSURC_Passives" package="0805" value="10uF" x="85" y="28" rot="MR90">
 <attribute name="DIGIKEY_PN" value="490-1709-1-ND" x="85" y="28" size="1.27" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="R37" library="OSURC_Passives" package="0603" value="1.5k" x="79.938" y="26.09">
+<attribute name="DIGIKEY_PN" value="P1.5KGCT-ND" x="79.938" y="26.09" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R38" library="OSURC_Passives" package="0603" value="22" x="76.524" y="20.959">
+<attribute name="DIGIKEY_PN" value="P22GCT-ND" x="76.524" y="20.959" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R39" library="OSURC_Passives" package="0603" value="22" x="82.089" y="19.024" rot="R90">
+<attribute name="DIGIKEY_PN" value="P22GCT-ND" x="82.089" y="19.024" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1614,8 +1624,7 @@ design rules under a new name.</description>
 <wire x1="10.861" y1="37.15" x2="11.303" y2="37.592" width="0.1778" layer="16"/>
 <wire x1="11.303" y1="37.592" x2="11.303" y2="38.989" width="0.1778" layer="16"/>
 <via x="11.303" y="38.989" extent="1-16" drill="0.381"/>
-<wire x1="11.303" y1="38.989" x2="35.052" y2="38.989" width="0.1778" layer="1"/>
-<wire x1="35.052" y1="38.989" x2="35.179" y2="38.989" width="0.1778" layer="1"/>
+<wire x1="11.303" y1="38.989" x2="35.179" y2="38.989" width="0.1778" layer="1"/>
 <wire x1="35.179" y1="38.989" x2="37.465" y2="36.703" width="0.1778" layer="1"/>
 <via x="37.465" y="36.703" extent="1-16" drill="0.381"/>
 <wire x1="37.465" y1="36.703" x2="40.894" y2="33.274" width="0.1778" layer="16"/>
@@ -1627,8 +1636,7 @@ design rules under a new name.</description>
 <wire x1="8.763" y1="37.084" x2="8.763" y2="34.925" width="0.1778" layer="1"/>
 <wire x1="8.763" y1="34.925" x2="9.271" y2="34.417" width="0.1778" layer="1"/>
 <wire x1="9.271" y1="34.417" x2="9.271" y2="30.099" width="0.1778" layer="1"/>
-<wire x1="9.271" y1="30.099" x2="8.255" y2="29.083" width="0.1778" layer="1"/>
-<wire x1="8.255" y1="29.083" x2="8.172" y2="29" width="0.1778" layer="1"/>
+<wire x1="9.271" y1="30.099" x2="8.172" y2="29" width="0.1778" layer="1"/>
 <wire x1="8.172" y1="29" x2="6.85" y2="29" width="0.1778" layer="1"/>
 <polygon width="0.1778" layer="16" rank="2">
 <vertex x="35" y="28.5"/>
@@ -1710,6 +1718,8 @@ design rules under a new name.</description>
 <wire x1="9.6" y1="9" x2="9.381" y2="9" width="0.508" layer="1"/>
 <wire x1="9.381" y1="9" x2="8.8265" y2="8.4455" width="0.508" layer="1"/>
 <contactref element="C7" pad="2"/>
+<contactref element="R37" pad="2"/>
+<wire x1="85" y1="28.9" x2="80.788" y2="26.09" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="KILL">
 <contactref element="R15" pad="1"/>
@@ -2144,19 +2154,6 @@ design rules under a new name.</description>
 <via x="46.482" y="10.668" extent="1-16" drill="0.381"/>
 <wire x1="46.482" y1="10.668" x2="49.784" y2="14.097" width="0.1778" layer="16"/>
 </signal>
-<signal name="OTG-HS-DP">
-<contactref element="U1" pad="36"/>
-<contactref element="JP1" pad="D+"/>
-<contactref element="TP8" pad="1"/>
-<wire x1="53.798275" y1="26.61629375" x2="54.74098125" y2="27.559" width="0.1778" layer="1"/>
-<wire x1="68.042" y1="29.083" x2="73.125" y2="24" width="0.1778" layer="1"/>
-<wire x1="73.125" y1="24" x2="88" y2="24" width="0.1778" layer="1"/>
-<wire x1="88" y1="24" x2="90.35" y2="24" width="0.1778" layer="1"/>
-<wire x1="68.042" y1="29.083" x2="58.293" y2="29.083" width="0.1778" layer="1"/>
-<wire x1="58.293" y1="29.083" x2="56.26498125" y2="29.083" width="0.1778" layer="1"/>
-<wire x1="56.26498125" y1="29.083" x2="54.74098125" y2="27.559" width="0.1778" layer="1"/>
-<wire x1="88" y1="24.5" x2="88" y2="24" width="0.1778" layer="1"/>
-</signal>
 <signal name="SPI1-MISO">
 <contactref element="U1" pad="56"/>
 <contactref element="U2" pad="6"/>
@@ -2199,19 +2196,6 @@ design rules under a new name.</description>
 <wire x1="33.75" y1="22" x2="33.75" y2="21.431" width="0.1778" layer="1"/>
 <wire x1="33.75" y1="21.431" x2="33.401" y2="21.082" width="0.1778" layer="1"/>
 <wire x1="33.401" y1="21.082" x2="33.02" y2="21.082" width="0.1778" layer="1"/>
-</signal>
-<signal name="OTG-HS-DM">
-<contactref element="U1" pad="35"/>
-<contactref element="JP1" pad="D-"/>
-<contactref element="TP7" pad="1"/>
-<wire x1="54.151828125" y1="26.262740625" x2="54.9400875" y2="27.051" width="0.1778" layer="1"/>
-<wire x1="67.915" y1="28.575" x2="73.14" y2="23.35" width="0.1778" layer="1"/>
-<wire x1="73.14" y1="23.35" x2="88" y2="23.35" width="0.1778" layer="1"/>
-<wire x1="88" y1="23.35" x2="90.35" y2="23.35" width="0.1778" layer="1"/>
-<wire x1="67.915" y1="28.575" x2="63.5" y2="28.575" width="0.1778" layer="1"/>
-<wire x1="63.5" y1="28.575" x2="56.4640875" y2="28.575" width="0.1778" layer="1"/>
-<wire x1="56.4640875" y1="28.575" x2="54.9400875" y2="27.051" width="0.1778" layer="1"/>
-<wire x1="88" y1="23" x2="88" y2="23.35" width="0.1778" layer="1"/>
 </signal>
 <signal name="SPI2-MISO">
 <contactref element="U1" pad="10"/>
@@ -3077,6 +3061,32 @@ design rules under a new name.</description>
 <wire x1="42.555275" y1="26.944725" x2="43.5" y2="26" width="0.1778" layer="1"/>
 <via x="43.5" y="26" extent="1-16" drill="0.381"/>
 <wire x1="43.5" y1="26" x2="42" y2="27.5" width="0.1778" layer="16"/>
+</signal>
+<signal name="OTG-HS-D_N" class="1">
+<contactref element="JP1" pad="D-"/>
+<contactref element="TP7" pad="1"/>
+<contactref element="R39" pad="2"/>
+<wire x1="83" y1="23.35" x2="90.35" y2="23.35" width="0" layer="19" extent="1-1"/>
+<wire x1="82.089" y1="19.874" x2="83" y2="23.35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OTG-HS-D_P" class="1">
+<contactref element="JP1" pad="D+"/>
+<contactref element="TP8" pad="1"/>
+<contactref element="R38" pad="2"/>
+<wire x1="81.5" y1="24" x2="90.35" y2="24" width="0" layer="19" extent="1-1"/>
+<wire x1="77.374" y1="20.959" x2="81.5" y2="24" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OTG-HS-D'_N" class="1">
+<contactref element="U1" pad="35"/>
+<contactref element="R39" pad="1"/>
+<wire x1="54.151828125" y1="26.262740625" x2="82.089" y2="18.174" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OTG-HS-D'_P" class="1">
+<contactref element="U1" pad="36"/>
+<contactref element="R37" pad="1"/>
+<contactref element="R38" pad="1"/>
+<wire x1="75.674" y1="20.959" x2="79.088" y2="26.09" width="0" layer="19" extent="1-1"/>
+<wire x1="53.798275" y1="26.61629375" x2="75.674" y2="20.959" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
