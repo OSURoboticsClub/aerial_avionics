@@ -2725,7 +2725,7 @@ design rules under a new name.</description>
 <wire x1="61.9125" y1="39.8145" x2="61.722" y2="40.005" width="0.1778" layer="16"/>
 <wire x1="61.661" y1="40.066" x2="61.9125" y2="39.8145" width="0.1778" layer="16"/>
 <contactref element="U5" pad="CD"/>
-<wire x1="61.661" y1="40.066" x2="61.661" y2="41.22" width="0" layer="19" extent="16-16"/>
+<wire x1="61.661" y1="40.066" x2="61.661" y2="41.22" width="0.1778" layer="16"/>
 </signal>
 <signal name="UART6-TX-GPS">
 <contactref element="U1" pad="37"/>
