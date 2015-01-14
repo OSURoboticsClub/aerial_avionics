@@ -1224,7 +1224,9 @@ design rules under a new name.</description>
 <element name="J23" library="OSURC_Connectors" package="USD-SOCKET-PP-MOLEX-503182" value="USD-SOCKET-MOLEX-503182" x="76.121" y="44.47" rot="MR0">
 <attribute name="DIGIKEY_PN" value="WM9750CT-ND" x="76.121" y="44.47" size="2" layer="28" ratio="12" rot="MR0" display="off"/>
 </element>
-<element name="J22" library="OSURC_Connectors" package="USB-MICROB-SMD-MOLEX" value="USB+SHIELD-MICROB-SMD-MOLEX" x="94" y="24" rot="R90"/>
+<element name="J22" library="OSURC_Connectors" package="USB-MICROB-SMD-MOLEX" value="USB+SHIELD-MICROB-SMD-MOLEX" x="94" y="24" rot="R90">
+<attribute name="DIGIKEY_PN" value="WM17141CT-ND" x="94" y="24" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">

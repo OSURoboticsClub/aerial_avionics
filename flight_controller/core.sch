@@ -1056,7 +1056,9 @@ USB connector with shield pins connectable</description>
 <connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY_PN" value="WM17141CT-ND"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1406,7 +1408,7 @@ chip</description>
 </symbols>
 <devicesets>
 <deviceset name="TEST-POINT" prefix="TP">
-<description>Bare copper test points for troubleshooting or ICT</description>
+<description>Test points</description>
 <gates>
 <gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
 </gates>
