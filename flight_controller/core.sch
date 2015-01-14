@@ -2324,9 +2324,6 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <text x="132.08" y="208.28" size="3.81" layer="91">Debug</text>
 <text x="170.18" y="248.92" size="3.81" layer="91">XBee</text>
 <text x="132.08" y="248.92" size="3.81" layer="91">Power</text>
-<text x="15.24" y="-632.46" size="1.778" layer="98">CD (chip detect) short to ground when card is inserted</text>
-<text x="15.24" y="-640.08" size="1.778" layer="98">Note SparkFun symbol is labeled for SPI operation.
-We implement the parallel interface.</text>
 <text x="170.18" y="193.04" size="1.778" layer="98">Place KILL LED someplace obvious</text>
 <text x="15.24" y="71.12" size="7.62" layer="91">MPU-9250</text>
 <text x="116.84" y="71.12" size="7.62" layer="91">MS5611</text>
@@ -2335,19 +2332,16 @@ We implement the parallel interface.</text>
 <text x="15.24" y="-254" size="7.62" layer="91">MPU-9250</text>
 <text x="91.44" y="-254" size="7.62" layer="91">MS5611</text>
 <text x="15.24" y="-208.28" size="7.62" layer="91">XBee</text>
-<text x="7.62" y="-624.84" size="7.62" layer="98">TODO</text>
 <text x="223.52" y="248.92" size="3.81" layer="91">Status</text>
 <text x="312.42" y="157.48" size="1.778" layer="98">1K pullup on KILL pulls TIM1 and TIM4 channels down until 
 the XBee deasserts KILL.</text>
 <text x="347.98" y="-403.86" size="7.62" layer="91">5V in</text>
 <text x="129.54" y="-73.66" size="7.62" layer="91">TVS/RVP</text>
-<text x="347.98" y="-439.42" size="1.778" layer="98">TODO: consider replacing with Molex Duraclik</text>
 <text x="15.24" y="-261.62" size="3.81" layer="91">VDD</text>
 <text x="55.88" y="-261.62" size="3.81" layer="91">REG</text>
 <text x="33.02" y="-261.62" size="3.81" layer="91">VDDIO</text>
 <text x="101.6" y="-403.86" size="7.62" layer="91">Digital</text>
 <text x="15.24" y="152.4" size="1.778" layer="98">TODO: C15 unused</text>
-<text x="15.24" y="-645.16" size="1.778" layer="98">TODO: pullups on data lines?</text>
 <text x="223.52" y="-403.86" size="7.62" layer="91">Test</text>
 <text x="347.98" y="-563.88" size="7.62" layer="91">Standoffs</text>
 </plain>
