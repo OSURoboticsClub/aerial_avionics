@@ -131,58 +131,62 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="0" y2="48" width="0.05" layer="20"/>
-<wire x1="0" y1="48" x2="96" y2="48" width="0.05" layer="20"/>
-<wire x1="96" y1="48" x2="96" y2="0" width="0.05" layer="20"/>
-<wire x1="96" y1="0" x2="0" y2="0" width="0.05" layer="20"/>
-<text x="1" y="27" size="0.762" layer="112" rot="SR270" align="bottom-center">RSSI</text>
-<text x="1" y="24" size="0.762" layer="112" rot="SR270" align="bottom-center">TX</text>
-<text x="1" y="21" size="0.762" layer="112" rot="SR270" align="bottom-center">RX</text>
-<text x="1" y="30" size="0.762" layer="112" rot="SR270" align="bottom-center">KILL</text>
-<text x="1" y="18" size="0.762" layer="112" rot="SR270" align="bottom-center">A12</text>
-<text x="1" y="15" size="0.762" layer="112" rot="SR270" align="bottom-center">A15</text>
-<text x="1" y="12" size="0.762" layer="112" rot="SR270" align="bottom-center">B2</text>
-<text x="1" y="36" size="0.762" layer="112" rot="SR270" align="bottom-center">5V</text>
-<text x="1" y="33" size="0.762" layer="112" rot="SR270" align="bottom-center">3V3</text>
-<text x="12" y="8" size="1.27" layer="112" align="bottom-center">ADC1</text>
-<text x="20" y="8" size="1.27" layer="112" align="bottom-center">ADC2</text>
-<text x="30" y="8" size="1.27" layer="112" align="bottom-center">SPI2</text>
-<text x="40" y="8" size="1.27" layer="112" align="bottom-center">UART4</text>
-<text x="48" y="8" size="1.27" layer="112" align="bottom-center">UART2</text>
-<text x="56" y="8" size="1.27" layer="112" align="bottom-center">A4</text>
-<text x="62" y="8" size="1.27" layer="112" align="bottom-center">A5</text>
-<text x="68" y="8" size="1.27" layer="112" align="bottom-center">C4</text>
-<text x="74" y="8" size="1.27" layer="112" align="bottom-center">C5</text>
-<text x="82" y="8" size="1.27" layer="112" align="bottom-center">I2C2</text>
-<text x="81" y="40" size="1.27" layer="112" rot="SR180" align="bottom-center">UART6</text>
-<text x="57" y="40" size="1.27" layer="112" rot="SR180" align="bottom-center">T1-1</text>
-<text x="51" y="40" size="1.27" layer="112" rot="SR180" align="bottom-center">T1-2</text>
-<text x="45" y="40" size="1.27" layer="112" rot="SR180" align="bottom-center">T1-3</text>
-<text x="39" y="40" size="1.27" layer="112" rot="SR180" align="bottom-center">T1-4</text>
-<text x="33" y="40" size="1.27" layer="112" rot="SR180" align="bottom-center">T4-1</text>
-<text x="27" y="40" size="1.27" layer="112" rot="SR180" align="bottom-center">T4-2</text>
-<text x="20" y="40" size="1.27" layer="112" rot="SR180" align="bottom-center">T4-3</text>
-<text x="12" y="40" size="1.27" layer="112" rot="SR180" align="bottom-center">T4-4</text>
-<text x="88" y="35" size="1.27" layer="112" rot="SR90" align="bottom-center">SWD</text>
-<text x="88" y="11" size="1.27" layer="112" rot="R90" align="bottom-center">5Vin</text>
-<text x="69.5" y="46" size="0.762" layer="112" rot="SR180" align="bottom-center">CMD</text>
-<text x="67" y="42.5" size="0.762" layer="112" rot="SR180" align="bottom-center">CK</text>
-<text x="72" y="42.5" size="0.762" layer="112" rot="SR180" align="bottom-center">D3</text>
-<text x="74.5" y="46" size="0.762" layer="112" rot="SR180" align="bottom-center">D2</text>
-<text x="62" y="42.5" size="0.762" layer="112" rot="SR180" align="bottom-center">D1</text>
-<text x="64.5" y="46" size="0.762" layer="112" rot="SR180" align="bottom-center">D0</text>
-<text x="75" y="11" size="1.5" layer="112" ratio="12" rot="R90">Flight Controller v3.9</text>
-<text x="72.5" y="11" size="2.5" layer="112" ratio="12" rot="R90">OSURC AERIAL</text>
-<text x="83" y="11" size="1.5" layer="112" ratio="12" rot="R90">S. Yoo / DEV</text>
-<rectangle x1="76" y1="11" x2="81" y2="33" layer="112"/>
+<wire x1="4" y1="48" x2="92" y2="48" width="0.05" layer="20"/>
+<wire x1="92" y1="48" x2="96" y2="44" width="0.05" layer="20" curve="-90"/>
+<wire x1="96" y1="44" x2="96" y2="4" width="0.05" layer="20"/>
+<wire x1="96" y1="4" x2="92" y2="0" width="0.05" layer="20" curve="-90"/>
+<wire x1="92" y1="0" x2="4" y2="0" width="0.05" layer="20"/>
+<wire x1="4" y1="0" x2="0" y2="4" width="0.05" layer="20" curve="-90"/>
+<wire x1="0" y1="4" x2="0" y2="44" width="0.05" layer="20"/>
+<wire x1="0" y1="44" x2="4" y2="48" width="0.05" layer="20" curve="-90"/>
+<text x="1" y="27" size="0.75" layer="112" rot="SR270" align="bottom-center">RSSI</text>
+<text x="1" y="24" size="0.75" layer="112" rot="SR270" align="bottom-center">TX</text>
+<text x="1" y="21" size="0.75" layer="112" rot="SR270" align="bottom-center">RX</text>
+<text x="1" y="30" size="0.75" layer="112" rot="SR270" align="bottom-center">KILL</text>
+<text x="1" y="18" size="0.75" layer="112" rot="SR270" align="bottom-center">A12</text>
+<text x="1" y="15" size="0.75" layer="112" rot="SR270" align="bottom-center">A15</text>
+<text x="1" y="12" size="0.75" layer="112" rot="SR270" align="bottom-center">B2</text>
+<text x="1" y="36" size="0.75" layer="112" rot="SR270" align="bottom-center">5V</text>
+<text x="1" y="33" size="0.75" layer="112" rot="SR270" align="bottom-center">3V3</text>
+<text x="12" y="8" size="1.5" layer="112" ratio="12" align="bottom-center">ADC1</text>
+<text x="20" y="8" size="1.5" layer="112" ratio="12" align="bottom-center">ADC2</text>
+<text x="30" y="8" size="1.5" layer="112" ratio="12" align="bottom-center">SPI2</text>
+<text x="40" y="8" size="1.5" layer="112" ratio="12" align="bottom-center">UART4</text>
+<text x="48" y="8" size="1.5" layer="112" ratio="12" align="bottom-center">UART2</text>
+<text x="56" y="8" size="1.5" layer="112" ratio="12" align="bottom-center">A4</text>
+<text x="62" y="8" size="1.5" layer="112" ratio="12" align="bottom-center">A5</text>
+<text x="68" y="8" size="1.5" layer="112" ratio="12" align="bottom-center">C4</text>
+<text x="74" y="8" size="1.5" layer="112" ratio="12" align="bottom-center">C5</text>
+<text x="82" y="8" size="1.5" layer="112" ratio="12" align="bottom-center">I2C2</text>
+<text x="81" y="40" size="1.5" layer="112" ratio="12" rot="SR180" align="bottom-center">UART6</text>
+<text x="57" y="40" size="1.5" layer="112" ratio="12" rot="SR180" align="bottom-center">T1-1</text>
+<text x="51" y="40" size="1.5" layer="112" ratio="12" rot="SR180" align="bottom-center">T1-2</text>
+<text x="45" y="40" size="1.5" layer="112" ratio="12" rot="SR180" align="bottom-center">T1-3</text>
+<text x="39" y="40" size="1.5" layer="112" ratio="12" rot="SR180" align="bottom-center">T1-4</text>
+<text x="33" y="40" size="1.5" layer="112" ratio="12" rot="SR180" align="bottom-center">T4-1</text>
+<text x="27" y="40" size="1.5" layer="112" ratio="12" rot="SR180" align="bottom-center">T4-2</text>
+<text x="20" y="40" size="1.5" layer="112" ratio="12" rot="SR180" align="bottom-center">T4-3</text>
+<text x="12" y="40" size="1.5" layer="112" ratio="12" rot="SR180" align="bottom-center">T4-4</text>
+<text x="88" y="35" size="1.5" layer="112" ratio="12" rot="SR90" align="bottom-center">SWD</text>
+<text x="88" y="11" size="1.5" layer="112" ratio="12" rot="R90" align="bottom-center">5Vin</text>
+<text x="69.5" y="46" size="1" layer="112" rot="SR180" align="bottom-center">CMD</text>
+<text x="67" y="43" size="1" layer="112" rot="SR180" align="bottom-center">CK</text>
+<text x="72" y="43" size="1" layer="112" rot="SR180" align="bottom-center">D3</text>
+<text x="74.5" y="46" size="1" layer="112" rot="SR180" align="bottom-center">D2</text>
+<text x="62" y="43" size="1" layer="112" rot="SR180" align="bottom-center">D1</text>
+<text x="64.5" y="46" size="1" layer="112" rot="SR180" align="bottom-center">D0</text>
+<text x="73.5" y="11" size="1.5" layer="112" ratio="12" rot="R90">Flight Controller v3.9</text>
+<text x="71" y="11" size="2.5" layer="112" ratio="12" rot="R90">OSURC AERIAL</text>
+<text x="82" y="11" size="1.5" layer="112" ratio="12" rot="R90">S. Yoo / DEV</text>
+<rectangle x1="74.5" y1="11" x2="79.5" y2="37" layer="112"/>
 <wire x1="21" y1="26.5" x2="22.5" y2="26.5" width="0.1778" layer="112"/>
 <wire x1="22.5" y1="26.5" x2="22.3" y2="26.7" width="0.1778" layer="112"/>
 <wire x1="20" y1="27.5" x2="20" y2="29" width="0.1778" layer="112"/>
 <wire x1="20" y1="29" x2="19.8" y2="28.8" width="0.1778" layer="112"/>
 <text x="23" y="26.5" size="1" layer="112" ratio="12" align="center-left">X</text>
 <text x="20" y="29.5" size="1" layer="112" ratio="12" align="bottom-center">Y</text>
-<text x="19.5" y="26.5" size="1.4" layer="112" ratio="12" align="center-left">G</text>
-<text x="19.5" y="20" size="1.4" layer="112" ratio="12" align="center-left">M</text>
+<text x="19.5" y="26.5" size="1.5" layer="112" ratio="12" align="center-left">G</text>
+<text x="19.5" y="20" size="1.5" layer="112" ratio="12" align="center-left">M</text>
 <wire x1="21" y1="20" x2="22.5" y2="20" width="0.1778" layer="112"/>
 <wire x1="22.5" y1="20" x2="22.3" y2="20.2" width="0.1778" layer="112"/>
 <text x="23" y="20" size="1" layer="112" ratio="12" align="center-left">Y</text>
@@ -199,6 +203,9 @@
 <wire x1="37.5" y1="36.5" x2="66" y2="36.5" width="0.5" layer="112"/>
 <wire x1="66" y1="36.5" x2="64" y2="37.5" width="0.5" layer="112"/>
 <wire x1="66" y1="36.5" x2="64" y2="35.5" width="0.5" layer="112"/>
+<text x="30" y="28" size="0.75" layer="112" rot="R180">MOSI</text>
+<text x="30" y="29" size="0.75" layer="112" rot="R180">MISO</text>
+<text x="30" y="30" size="0.75" layer="112" rot="R180">SCK</text>
 </plain>
 <libraries>
 <library name="OSURC_Sensors">
