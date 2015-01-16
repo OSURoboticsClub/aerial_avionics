@@ -2,18 +2,17 @@ Aerial Flight Controller
 ========================
 _Flight control board_
 
-v4.0
+v3.9
 ----
-_In progress_
+_In fabrication_
 
 Complete redesign with new microcontroller pin configuration. Significant
-additions will include the following:
+additions include the following:
 
-  * uBlox GPS
   * MS5611 barometer
   * MPU-9250 9DoF sensor in place of MPU-6000
   * MicroSD card reader
-  * High-speed USB
+  * Full-speed USB
   * More TIM channels and UART buses
   * Killswitch BJTs replaced with MOSFETs, and more of 'em
   * External SPI and I2C buses
