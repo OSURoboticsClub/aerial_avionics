@@ -127,6 +127,14 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[GeneratedDocument1]
+DocumentPath=..\..\..\osurc_eda_libraries\altium\OSURC_DigitalIC.csv
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=..\..\..\osurc_eda_libraries\altium\OSURC_DigitalIC.rep
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
