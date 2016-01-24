@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="9" fill="1" visible="no" active="no"/>
@@ -237,53 +237,53 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="8" x="1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
 <text x="-1.5" y="3" size="0.762" layer="25">&gt;name</text>
 </package>
-<package name="QFN-24-NP">
-<wire x1="1.65" y1="-2" x2="2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="2" y1="-1.65" x2="2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-1.65" y1="-2" x2="-2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="-1.65" width="0.2032" layer="21"/>
-<wire x1="2" y1="1.65" x2="2" y2="2" width="0.2032" layer="21"/>
-<wire x1="2" y1="2" x2="1.65" y2="2" width="0.2032" layer="21"/>
-<wire x1="-1.65" y1="2" x2="-2" y2="1.65" width="0.2032" layer="21"/>
-<wire x1="-1.016" y1="0.508" x2="-1.016" y2="-0.889" width="0.0762" layer="51"/>
-<wire x1="-1.016" y1="-0.889" x2="1.016" y2="-0.889" width="0.0762" layer="51"/>
-<wire x1="1.143" y1="1.143" x2="0.635" y2="1.143" width="0.0762" layer="51" curve="-270"/>
-<wire x1="1.143" y1="1.143" x2="1.0668" y2="0.9144" width="0.0762" layer="51"/>
-<wire x1="1.143" y1="1.143" x2="1.397" y2="1.0414" width="0.0762" layer="51"/>
-<wire x1="-0.7874" y1="-0.3048" x2="-0.7874" y2="0.0762" width="0.0762" layer="51" curve="-280.388858"/>
-<wire x1="-0.7874" y1="0.2794" x2="-0.7874" y2="0.0762" width="0.0762" layer="51"/>
-<wire x1="-0.7874" y1="0.0762" x2="-0.889" y2="-0.0254" width="0.0762" layer="51"/>
-<wire x1="0.5334" y1="-1.1176" x2="0.508" y2="-0.635" width="0.0762" layer="51" curve="-248.760689"/>
-<wire x1="0.381" y1="-1.016" x2="0.5334" y2="-1.1176" width="0.0762" layer="51"/>
-<wire x1="0.5334" y1="-1.1176" x2="0.4826" y2="-1.2954" width="0.0762" layer="51"/>
-<smd name="1" x="-2" y="1.25" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="2" x="-2" y="0.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="3" x="-2" y="0.25" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="4" x="-2" y="-0.25" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="5" x="-2" y="-0.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="6" x="-2" y="-1.25" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="7" x="-1.25" y="-2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-0.75" y="-2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="-0.25" y="-2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="0.25" y="-2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="0.75" y="-2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="1.25" y="-2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="13" x="2" y="-1.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="14" x="2" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="15" x="2" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="16" x="2" y="0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="17" x="2" y="0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="18" x="2" y="1.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="19" x="1.25" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="20" x="0.75" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="21" x="0.25" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="22" x="-0.25" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="23" x="-0.75" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="24" x="-1.25" y="2" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<text x="-2.4" y="2.8" size="0.762" layer="25">&gt;name</text>
-<text x="1.1176" y="-1.1938" size="0.4064" layer="51">X</text>
-<text x="-1.2192" y="0.6604" size="0.4064" layer="51">Y</text>
-<text x="0" y="0.8636" size="0.4064" layer="51">Z</text>
+<package name="QFN-24-NP-3X3MM">
+<wire x1="1.15" y1="-1.5" x2="1.5" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="-1.15" x2="1.5" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-1.15" y1="-1.5" x2="-1.5" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1.15" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="1.15" x2="1.5" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.15" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="-1.15" y1="1.5" x2="-1.5" y2="1.15" width="0.2032" layer="21"/>
+<wire x1="-0.716" y1="0.508" x2="-0.716" y2="-0.789" width="0.0762" layer="51"/>
+<wire x1="-0.716" y1="-0.789" x2="1.016" y2="-0.789" width="0.0762" layer="51"/>
+<wire x1="0.643" y1="0.543" x2="0.235" y2="0.543" width="0.0762" layer="51" curve="-270"/>
+<wire x1="0.643" y1="0.543" x2="0.6668" y2="0.4144" width="0.0762" layer="51"/>
+<wire x1="0.643" y1="0.543" x2="0.797" y2="0.4414" width="0.0762" layer="51"/>
+<wire x1="-0.4874" y1="-0.3048" x2="-0.4874" y2="0.0762" width="0.0762" layer="51" curve="-280.388858"/>
+<wire x1="-0.4874" y1="0.1794" x2="-0.4874" y2="0.0762" width="0.0762" layer="51"/>
+<wire x1="-0.4874" y1="0.0762" x2="-0.589" y2="0.0746" width="0.0762" layer="51"/>
+<wire x1="0.5334" y1="-1.0176" x2="0.508" y2="-0.535" width="0.0762" layer="51" curve="-248.760689"/>
+<wire x1="0.381" y1="-1.016" x2="0.5334" y2="-1.0176" width="0.0762" layer="51"/>
+<wire x1="0.5334" y1="-1.0176" x2="0.4826" y2="-1.0954" width="0.0762" layer="51"/>
+<smd name="1" x="-1.7" y="1" dx="1" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="2" x="-1.7" y="0.6" dx="1" dy="0.25" layer="1" rot="R180"/>
+<smd name="3" x="-1.7" y="0.2" dx="1" dy="0.25" layer="1" rot="R180"/>
+<smd name="4" x="-1.7" y="-0.2" dx="1" dy="0.25" layer="1" rot="R180"/>
+<smd name="5" x="-1.7" y="-0.6" dx="1" dy="0.25" layer="1" rot="R180"/>
+<smd name="6" x="-1.7" y="-1" dx="1" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="7" x="-1" y="-1.7" dx="1" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="-0.6" y="-1.7" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="9" x="-0.2" y="-1.7" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="10" x="0.2" y="-1.7" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="11" x="0.6" y="-1.7" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="12" x="1" y="-1.7" dx="1" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<smd name="13" x="1.7" y="-1" dx="1" dy="0.25" layer="1" roundness="100"/>
+<smd name="14" x="1.7" y="-0.6" dx="1" dy="0.25" layer="1"/>
+<smd name="15" x="1.7" y="-0.2" dx="1" dy="0.25" layer="1"/>
+<smd name="16" x="1.7" y="0.2" dx="1" dy="0.25" layer="1"/>
+<smd name="17" x="1.7" y="0.6" dx="1" dy="0.25" layer="1"/>
+<smd name="18" x="1.7" y="1" dx="1" dy="0.25" layer="1" roundness="100"/>
+<smd name="19" x="1" y="1.7" dx="1" dy="0.25" layer="1" roundness="100" rot="R270"/>
+<smd name="20" x="0.6" y="1.7" dx="1" dy="0.25" layer="1" rot="R270"/>
+<smd name="21" x="0.2" y="1.7" dx="1" dy="0.25" layer="1" rot="R270"/>
+<smd name="22" x="-0.2" y="1.7" dx="1" dy="0.25" layer="1" rot="R270"/>
+<smd name="23" x="-0.6" y="1.7" dx="1" dy="0.25" layer="1" rot="R270"/>
+<smd name="24" x="-1" y="1.7" dx="1" dy="0.25" layer="1" roundness="100" rot="R270"/>
+<text x="-2.2" y="2.4" size="0.762" layer="25">&gt;name</text>
+<text x="0.6" y="-0.7" size="0.4064" layer="51">X</text>
+<text x="-0.8" y="0.6" size="0.4064" layer="51">Y</text>
+<text x="0.3" y="0.6" size="0.4064" layer="51">Z</text>
 </package>
 </packages>
 <symbols>
@@ -359,7 +359,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="G$1" symbol="MPU-9250" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-QFN-24-NP" package="QFN-24-NP">
+<device name="-QFN-24-NP" package="QFN-24-NP-3X3MM">
 <connects>
 <connect gate="G$1" pin="AD0/SDO" pad="9"/>
 <connect gate="G$1" pin="AUX_CL" pad="7"/>
