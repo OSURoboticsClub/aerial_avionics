@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2966,6 +2966,9 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lm2675.pdf</description>
 <part name="J8" library="OSURC_Connectors" deviceset="M02" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
+<part name="J9" library="OSURC_Connectors" deviceset="M02" device=""/>
+<part name="GND3" library="supply1" deviceset="GND" device=""/>
+<part name="P+6" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3026,6 +3029,9 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lm2675.pdf</description>
 <instance part="J8" gate="G$1" x="66.04" y="-335.28"/>
 <instance part="GND15" gate="1" x="40.64" y="-342.9"/>
 <instance part="P+5" gate="VCC" x="40.64" y="-325.12"/>
+<instance part="J9" gate="G$1" x="68.58" y="-289.56"/>
+<instance part="GND3" gate="1" x="40.64" y="-297.18"/>
+<instance part="P+6" gate="VCC" x="40.64" y="-276.86"/>
 </instances>
 <busses>
 </busses>
@@ -3175,6 +3181,12 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lm2675.pdf</description>
 <wire x1="160.02" y1="-243.84" x2="144.78" y2="-243.84" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="-243.84" x2="144.78" y2="-246.38" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="J9" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="-294.64" x2="40.64" y2="-289.56" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-289.56" x2="63.5" y2="-289.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -3270,6 +3282,12 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lm2675.pdf</description>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="5.08" y1="-111.76" x2="5.08" y2="-116.84" width="0.1524" layer="91"/>
 <junction x="5.08" y="-116.84"/>
+</segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="1"/>
+<pinref part="P+6" gate="VCC" pin="VCC"/>
+<wire x1="63.5" y1="-287.02" x2="40.64" y2="-287.02" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-287.02" x2="40.64" y2="-279.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">

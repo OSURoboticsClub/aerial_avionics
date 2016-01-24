@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -375,9 +375,6 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -543,6 +540,9 @@ design rules under a new name.</description>
 <element name="J8" library="OSURC_Connectors" package="MOLEX-2MM-MICROLATCH-2POS-RA" value="M02" x="10.16" y="74.93" rot="R90">
 <attribute name="DIGIKEY_PN" value="WM18999-ND" x="49.53" y="92.71" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
+<element name="J9" library="OSURC_Connectors" package="MOLEX-2MM-MICROLATCH-2POS-RA" value="M02" x="-2.54" y="30.48">
+<attribute name="DIGIKEY_PN" value="WM18999-ND" x="-2.54" y="30.48" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="+3V3">
@@ -633,6 +633,7 @@ design rules under a new name.</description>
 <contactref element="D2" pad="A"/>
 <contactref element="R4" pad="2"/>
 <contactref element="J1" pad="2"/>
+<contactref element="J9" pad="2"/>
 <wire x1="30.48" y1="73.67" x2="38.1" y2="74.537" width="0" layer="19" extent="1-1"/>
 <wire x1="30.48" y1="73.66" x2="30.48" y2="73.67" width="0" layer="19" extent="1-1"/>
 <wire x1="23.4" y1="36.83" x2="23.4" y2="38.1" width="0" layer="19" extent="1-1"/>
@@ -644,6 +645,7 @@ design rules under a new name.</description>
 <wire x1="26.67" y1="52.463" x2="24.13" y2="52.463" width="0" layer="19" extent="1-1"/>
 <wire x1="26.67" y1="50.43" x2="26.67" y2="52.463" width="0" layer="19" extent="1-1"/>
 <wire x1="15.23" y1="55.88" x2="15.23" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.54" y1="30.48" x2="6.35" y2="38.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R1" pad="2"/>
@@ -724,11 +726,13 @@ design rules under a new name.</description>
 <contactref element="C6" pad="2"/>
 <contactref element="U$4" pad="7"/>
 <contactref element="C7" pad="2"/>
+<contactref element="J9" pad="1"/>
 <wire x1="21.59" y1="71.755" x2="24.34" y2="71.755" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="63.87" x2="24.13" y2="63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="61.86" x2="24.13" y2="63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="20.53" y1="50.165" x2="17.78" y2="55.88" width="0" layer="19" extent="1-16"/>
 <wire x1="24.13" y1="48.63" x2="20.53" y2="50.165" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.54" y1="30.48" x2="20.53" y2="50.165" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="C5" pad="2"/>
